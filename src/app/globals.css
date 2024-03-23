@@ -1,2 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
+  --cor-cargo: #209449;
+  --azul-home: #0071b7;
+  --font-white: #fff;
+
+  /* Fonts */
+  --font-header: 20px;
 }

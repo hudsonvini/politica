@@ -1,6 +1,8 @@
 import { Urbanist } from "next/font/google";
 import "./globals.css";
-import { Header } from "./components/header";
+import { Header } from "./components/header/header";
+import styles from "./all.module.css";
+import { BlueStrip } from "./components/blue strip/blueStrip";
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 
@@ -12,9 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={urbanist.className}>
+      <body className={`${styles.body} ${urbanist.className} `}>
+        <BlueStrip />
         <Header />
-        {children}
+        <main className={styles.main}>{children}</main>
       </body>
     </html>
   );

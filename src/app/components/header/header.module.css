@@ -1,0 +1,39 @@
+.header {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 57px;
+}
+
+.menuLista {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.cargo {
+  text-transform: uppercase;
+  background-color: #209449;
+  color: var(--font-white);
+  padding: 15px;
+  font-weight: 800;
+  font-size: var(--font-header);
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.linkCampanha {
+  text-decoration: none;
+  background-color: var(--azul-home);
+  color: var(--font-white);
+  padding: 15px;
+  font-weight: 600;
+}
