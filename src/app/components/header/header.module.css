@@ -32,7 +32,7 @@
 
 .linkCampanha {
   text-decoration: none;
-  background-color: var(--azul-home);
+  background-color: var(--azul-escuro-home);
   color: var(--font-white);
   padding: 15px;
   font-weight: 600;

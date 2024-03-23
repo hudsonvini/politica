@@ -1,99 +1,98 @@
 .container {
-    max-width: 1500px;
-    margin: 0 auto;
-    margin-top: var(--ultra-large-space);
-    margin-bottom: var(--large-space);
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-top: var(--ultra-large-space);
+  margin-bottom: var(--large-space);
 }
 
 .newsletter {
-    display: flex;
-    background-color: var(--cor-cargo);
-    height: 400px;
+  display: flex;
+  background-color: var(--cor-cargo);
+  height: 400px;
 }
 
 /* Lead Capture Area */
 .leadCaptureArea {
-    width: 50%;
-    padding: 70px;
-    color: #fff;
+  width: 50%;
+  padding: 70px;
+  color: #fff;
 }
 
 .leadCaptureArea h2 {
-    position: relative;
-    font-size: 32px;
-    font-weight: 500;
+  position: relative;
+  font-size: 32px;
+  font-weight: 500;
 }
 
 .leadCaptureArea h2::after {
-    content: '';
-    position: absolute;
-    bottom: -17px;
-    left: 0px;
-    width: 15%;
-    height: 7px;
-    background-color: var(--amarelo-home);
+  content: "";
+  position: absolute;
+  bottom: -17px;
+  left: 0px;
+  width: 15%;
+  height: 7px;
+  background-color: var(--amarelo-home);
 }
 
 .leadCaptureArea p {
-    margin-top: var(--mid-space);
-    margin-bottom: var(--mid-space);
+  margin-top: var(--mid-space);
+  margin-bottom: var(--mid-space);
 }
 
 .leadCaptureArea form {
-    display: flex;
-    align-items: center;
-    border: 1px solid #fff;
-    padding: 4px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff;
+  padding: 4px;
 }
 
 .leadCaptureArea form input {
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    height: 100%;
-    width: 100%;
-    padding: 16px 20px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 16px 20px;
 }
 
 .leadCaptureArea form input::placeholder {
-    color: #fff;
+  color: #fff;
 }
 
 .leadCaptureArea form input:focus {
-    border: 0 none;
-    outline: none;
+  border: 0 none;
+  outline: none;
 }
 
-
 .leadCaptureArea form button {
-    background-color: var(--amarelo-home);
-    color: #000;
-    font-weight: 600;
-    border: none;
-    padding: 16px 40px;
+  background-color: var(--amarelo-home);
+  color: #000;
+  font-weight: 600;
+  border: none;
+  padding: 16px 40px;
 }
 
 /* Area Image */
 .areaImage {
-    display: flex;
-    justify-content: end;
-    position: relative;
-    width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 50%;
 }
 
 .imageCandidate {
-    position: absolute;
-    bottom: 0;
-    width: 480px;
-    left: 100px;
+  position: absolute;
+  bottom: 0;
+  width: 480px;
+  left: 100px;
 }
 
 .areaIamgebandeira {
-    width: 50%;
+  width: 50%;
 }
 
 .areaIamgebandeira img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }

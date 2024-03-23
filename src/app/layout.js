@@ -1,8 +1,8 @@
 import { Urbanist } from "next/font/google";
 import "./globals.css";
-import { Header } from "./components/header/Header";
+import { Header } from "./components/Header/Header";
 import styles from "./all.module.css";
-import { BlueStrip } from "./components/blue strip/blueStrip";
+import { BlueStrip } from "./components/Bluestrip/blueStrip";
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 

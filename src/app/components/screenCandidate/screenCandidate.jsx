@@ -15,8 +15,12 @@ export function ScreenCandidate() {
           />
         </article>
       </article>
-      <article>
-        <img width={683} src="/images/cironogueira.png" alt="" />
+      <article className={styles.contentImgPerson}>
+        <img
+          className={styles.imgPerson}
+          src="/images/cironogueira.png"
+          alt=""
+        />
       </article>
     </section>
   );

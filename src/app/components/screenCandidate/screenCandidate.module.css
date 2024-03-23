@@ -1,14 +1,19 @@
 .container {
   width: 100%;
   display: flex;
-  gap: 80px;
   padding-top: 20px;
+  gap: var(--large-space);
+}
+.infoCandidato {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .cardBlue {
   width: 100%;
-  max-width: 811px;
   height: 163px;
-  background-color: var(--azul-home);
+  background-color: var(--azul-claro-home);
   color: white;
   padding: 10px;
   margin-top: 143px;
@@ -19,12 +24,6 @@
   padding-right: 97px;
 }
 
-.infoCandidato {
-  width: 811px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
 .fraseCandidato {
   font-size: 32px;
   font-weight: 400;
@@ -43,4 +42,14 @@
 
 .imgNomeCandidato {
   width: 240px;
+}
+
+.contentImgPerson {
+  display: flex;
+  width: 50%;
+}
+
+.imgPerson {
+  max-width: 683px;
+  align-self: flex-end;
 }
