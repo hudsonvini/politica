@@ -1,6 +1,6 @@
 import { Urbanist } from "next/font/google";
 import "./globals.css";
-import { Header } from "./components/header/header";
+import { Header } from "./components/header/Header";
 import styles from "./all.module.css";
 import { BlueStrip } from "./components/blue strip/blueStrip";
 
