@@ -7,8 +7,15 @@
 :root {
   --cor-cargo: #209449;
   --azul-home: #0071b7;
+  --azul-claro-home: #1085CD;
   --font-white: #fff;
 
   /* Fonts */
   --font-header: 20px;
+
+  /* SPACING */
+  --min-space: 20px;
+  --mid-space: 40px;
+  --large-space: 80px;
+  --ultra-large-space: 100px;
 }

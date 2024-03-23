@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+}
+
+/* area Image */
+.areaImage {
+    width: 50%;
+}
+
+.areaImage img {
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Area Text */
+.areaText {
+    padding: 70px;
+    background-color: var(--azul-claro-home);
+    width: 50%;
+    color: #fff;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.description {
+    font-size: 18px;
+    margin-top: var(--mid-space);
+}
+
+.dateBorn {
+    display: block;
+    margin-top: var(--min-space);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.name {
+    text-transform: uppercase;
+}
+
+.buttonPrev,
+.buttonNext {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.buttonPrev {
+    margin-right: var(--min-space);
+}
+
+.buttonPrev svg,
+.buttonNext svg {
+    fill: #fff;
+    height: 16px;
+}
+
+.areaButtons {
+    margin-top: var(--mid-space);
+}
