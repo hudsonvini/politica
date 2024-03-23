@@ -1,0 +1,67 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: var(--large-space);
+}
+
+.title {
+    color: var(--cor-cargo);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* Area Agenda */
+.areaAgenda {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: var(--mid-space);
+}
+
+/* Card */
+.card {
+    display: flex;
+    background-color: #F7F7F7;
+    border: 1px solid #E9E9E9;
+}
+
+.dataArea {
+    background-color: var(--cor-cargo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* Information Area */
+.informationArea {
+    padding: 24px;
+}
+
+.informationArea h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.inferiorInformation {
+    display: flex;
+    margin-top: 24px;
+}
+
+.inferiorInformation span {
+    display: flex;
+    margin-right: var(--mid-space);
+    font-weight: 500;
+    color: #767676;
+    font-size: 18px;
+}
+
+.inferiorInformation span svg {
+    fill: var(--azul-claro-home);
+    height: 24px;
+    margin-right: 10px;
+}
