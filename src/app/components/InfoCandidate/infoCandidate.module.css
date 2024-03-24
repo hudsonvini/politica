@@ -1,0 +1,81 @@
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  gap: var(--mid-space);
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.nameInfoCandidate {
+  color: var(--verde-escuro-home);
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: var(--mid-space);
+}
+
+.textBackground {
+  background-color: var(--amarelo-home);
+  color: var(--azul-claro-home);
+  padding: 0 5px;
+}
+
+.contentTextCandidate {
+  display: flex;
+  flex-direction: column;
+  gap: var(--min-space);
+}
+.paragraphCandidate {
+  max-width: 817px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.phraseCandidate {
+  color: black;
+  font-size: 32px;
+  font-weight: 600;
+  list-style: 44.8px;
+  max-width: 783px;
+}
+
+.marksColor {
+  color: var(--azul-escuro-home);
+}
+
+.birthCandidate {
+  color: var(--azul-claro-home);
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nameTextBold {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.contentInfoCandidate {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentImgCandidate {
+  max-width: 494px;
+  background: linear-gradient(to right, #1085cd, #10a0cd);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ImgCandidate {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  padding: 0 20px;
+}

@@ -8,7 +8,7 @@ import Propostas from "./components/Propostas/Propostas";
 import { BannerOne } from "./components/BannerOne/BannerOne";
 import { SecondBanner } from "./components/SecondBanner/SecondBanner";
 import Footer from "./components/Footer/Footer";
-
+import InfoCandidate from "./components/InfoCandidate/InfoCandidate";
 
 export default function Home() {
   return (
@@ -25,20 +25,22 @@ export default function Home() {
       {/* Render the SecondBanner component */}
       <SecondBanner />
 
+      {/* Render the InfoCandidate component */}
+      <InfoCandidate />
+
       {/* Render the Propostas component */}
       <Propostas />
 
       {/* Render the Depoimentos component */}
       <Depoimentos />
 
-      {/* Render the NewsLetter component */} 
+      {/* Render the NewsLetter component */}
       <Agenda />
 
       <NewsLetter />
 
       {/* Render the Footer component */}
       <Footer />
-
     </>
   );
 }
