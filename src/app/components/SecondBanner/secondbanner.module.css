@@ -1,0 +1,45 @@
+.container {
+  /* Define the width and height of the container */
+  width: 100%;
+  height: 420px;
+  display: flex;
+}
+
+.bannerContentOne {
+  /* Define the width, height, and background style of the banner content */
+  width: 55%;
+  height: 100%;
+  background-color: var(--azul-escuro-home);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: var(--large-space);
+  padding-right: var(--large-space);
+  gap: 10px;
+}
+
+.bannerText {
+  /* Define the style of the banner text */
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44.8px;
+  color: var(--font-white);
+}
+
+.bannerParagraph {
+  /* Define the style of the banner paragraph */
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: var(--font-white);
+  width: 736px;
+}
+
+.secondBannerContent {
+  /* Define the width, height, and background style of the second banner content */
+  width: 45%;
+  height: 100%;
+  display: flex;
+  background-color: var(--verde-escuro-home);
+}

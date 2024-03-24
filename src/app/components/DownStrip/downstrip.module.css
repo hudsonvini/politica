@@ -1,27 +1,36 @@
 .container {
+  /* Defines a container element that spans the full width and uses flexbox for layout */
   width: 100%;
   display: flex;
 }
+
 .downstripContentOne {
+  /* Defines the styling for the first content section of the downstrip */
   width: 30%;
   background-color: #209449;
   height: 202px;
 }
 
 .contentImgPiaui {
+  /* Defines the styling for the image content within the first section */
   width: 100%;
   height: 100%;
 }
 
 .imgPiaui {
+  /* Defines the styling for the image within the first section */
   width: 50%;
   height: 100%;
 }
+
 .contentImgPerson {
+  /* Defines the styling for the image content within the second section */
   width: 100%;
   position: relative;
 }
+
 .imgPerson {
+  /* Defines the styling for the image within the second section */
   position: absolute;
   width: 322px;
   bottom: 0;
@@ -30,6 +39,7 @@
 }
 
 .downstripContentTwo {
+  /* Defines the styling for the second content section of the downstrip */
   width: 70%;
   background-color: var(--azul-escuro-home);
   height: 202px;
@@ -40,12 +50,14 @@
 }
 
 .downstripText {
+  /* Defines the styling for the text within the second section */
   font-weight: 400;
   color: var(--font-white);
   font-size: 24px;
 }
 
 .lineText {
+  /* Defines the styling for the line separator within the second section */
   display: block;
   width: 1px;
   height: 80px;
@@ -54,6 +66,7 @@
 }
 
 .boldText {
+  /* Defines the styling for the bold text within the second section */
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 700;
