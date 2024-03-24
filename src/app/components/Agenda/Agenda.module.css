@@ -5,7 +5,7 @@
 }
 
 .title {
-    color: var(--cor-cargo);
+    color: var(--verde-escuro-home);
     font-size: 36px;
     font-weight: 600;
 }
@@ -27,7 +27,7 @@
 }
 
 .dataArea {
-    background-color: var(--cor-cargo);
+    background-color: var(--verde-escuro-home);
     display: flex;
     justify-content: center;
     align-items: center;

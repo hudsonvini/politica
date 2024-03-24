@@ -7,7 +7,7 @@
 
 .newsletter {
   display: flex;
-  background-color: var(--cor-cargo);
+  background-color: var(--verde-escuro-home);
   height: 400px;
 }
 

@@ -5,6 +5,7 @@ export default function Propostas() {
         <section className={style.container}>
             {/* Title */}
             <h2 className={style.title}>Proposta</h2>
+            
             {/* grid Propostas */}
             <div className={style.gridProposta}>
                 {/* card */}
