@@ -1,0 +1,57 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: var(--large-space);
+    margin-bottom: var(--large-space);
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-cargo);
+}
+
+/* Grid Propostas */
+.gridProposta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: var(--large-space);
+    row-gap: var(--large-space);
+    margin-top: var(--mid-space);
+}
+
+/* Card */
+.card {
+    display: flex;
+}
+
+/* Icon */
+.areaIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4E4E4;
+    margin-right: var(--min-space);
+    min-width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #C7C6C6;
+}
+
+.areaIcon svg {
+    fill: var(--azul-claro-home);
+    height: 20px;
+}
+
+/* Area Information */
+.areaInformation span {
+    color: var(--azul-claro-home);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.areaInformation h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
