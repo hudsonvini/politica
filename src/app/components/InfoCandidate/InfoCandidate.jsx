@@ -40,7 +40,8 @@ export default function InfoCandidate() {
         {/* Candidate image */}
         <img
           className={styles.ImgCandidate}
-          src="/images/cironogueira.png"
+          src="https://cironogueira.com.br/wp-content/uploads/2024/03/49615255406_fe6fe4408b_k.jpg"
+          // src="/images/cironogueira.png"
           alt="Candidato"
         />
       </div>

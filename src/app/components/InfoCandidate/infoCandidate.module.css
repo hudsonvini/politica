@@ -19,7 +19,7 @@
 
 .textBackground {
   /* Styling for the textBackground element */
-  background-color: var(--amarelo-home);
+  /* background-color: var(--amarelo-home); */
   color: var(--azul-claro-home);
   padding: 0 5px;
 }
@@ -36,15 +36,15 @@
   max-width: 817px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 22.4px;
+  line-height: 140%;
 }
 
 .phraseCandidate {
   /* Styling for the phraseCandidate element */
   color: black;
   font-size: 32px;
-  font-weight: 600;
-  list-style: 44.8px;
+  line-height: 140%;
+  font-weight: 700;
   max-width: 783px;
 }
 
@@ -82,13 +82,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 500px;
   overflow: hidden;
 }
 
 .ImgCandidate {
   /* Styling for the ImgCandidate element */
-  max-width: 100%;
+  /* max-width: 100%; */
   max-height: 100%;
   object-fit: cover;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }

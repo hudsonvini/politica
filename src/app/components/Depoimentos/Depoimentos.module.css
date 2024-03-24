@@ -28,6 +28,7 @@
 .description {
     font-size: 18px;
     margin-top: var(--mid-space);
+    line-height: 140%;
 }
 
 .dateBorn {

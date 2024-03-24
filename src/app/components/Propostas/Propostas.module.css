@@ -5,12 +5,6 @@
     margin-bottom: var(--large-space);
 }
 
-.title {
-    font-size: 36px;
-    font-weight: 600;
-    color: var(--verde-escuro-home);
-}
-
 /* Grid Propostas */
 .gridProposta {
     display: grid;
@@ -30,17 +24,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E4E4E4;
+    background-color: #f1f1f1;
     margin-right: var(--min-space);
-    min-width: 80px;
-    height: 80px;
+    min-width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 1px solid #C7C6C6;
 }
 
 .areaIcon svg {
     fill: var(--azul-claro-home);
-    height: 20px;
+    height: 24px;
 }
 
 /* Area Information */
@@ -54,4 +48,10 @@
 .areaInformation h3 {
     font-size: 24px;
     margin-bottom: 10px;
+}
+
+.areaInformation p {
+    line-height: 140%;
+    font-weight: 500;
+    color: #363636;
 }

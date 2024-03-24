@@ -5,14 +5,18 @@
   display: flex;
 }
 
+.areaConetentBannerOne {
+  
+}
+
 .bannerContentOne {
   /* Define the width, height, and background style of the banner content */
-  width: 55%;
+  width: 45%;
   height: 100%;
   background-color: var(--azul-escuro-home);
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 
   padding-left: var(--large-space);
@@ -59,7 +63,7 @@
 
 .secondBannerContent {
   /* Define the width, height, and background style of the second banner content */
-  width: 45%;
+  width: 55%;
   height: 100%;
   display: flex;
   background-color: var(--verde-escuro-home);
