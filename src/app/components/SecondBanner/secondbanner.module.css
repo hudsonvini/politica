@@ -22,7 +22,7 @@
 
 .bannerText {
   /* Define the style of the banner text */
-  font-weight: 700;
+  font-weight: 600;
   font-size: 32px;
   line-height: 44.8px;
   color: var(--font-white);
@@ -35,6 +35,26 @@
   font-weight: 400;
   color: var(--font-white);
   max-width: 736px;
+}
+
+/* Button Download */
+.buttonDownload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--azul-escuro-home);
+  margin-top: var(--min-space) ;
+}
+
+.buttonDownload svg {
+  fill: var(--azul-escuro-home);
+  height: 20px;
+  margin-left: 10px;
 }
 
 .secondBannerContent {

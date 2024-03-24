@@ -22,15 +22,14 @@
   text-transform: uppercase;
   background-color: #209449;
   color: var(--font-white);
-  padding: 15px;
-  font-weight: 800;
-  font-size: var(--font-header);
+  padding: 15px 24px;
+  font-weight: 700;
 }
 
 .link {
   /* Styling for the links */
   text-decoration: none;
-  color: black;
+  color: #353535;
   font-weight: 600;
 }
 
@@ -39,6 +38,6 @@
   text-decoration: none;
   background-color: var(--azul-escuro-home);
   color: var(--font-white);
-  padding: 15px;
-  font-weight: 600;
+  padding: 15px 24px;
+  font-weight: 500;
 }
