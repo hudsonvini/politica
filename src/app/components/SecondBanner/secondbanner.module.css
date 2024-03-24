@@ -14,6 +14,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+
   padding-left: var(--large-space);
   padding-right: var(--large-space);
   gap: 10px;
@@ -33,7 +34,7 @@
   line-height: 25px;
   font-weight: 400;
   color: var(--font-white);
-  width: 736px;
+  max-width: 736px;
 }
 
 .secondBannerContent {

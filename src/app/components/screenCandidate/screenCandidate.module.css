@@ -53,12 +53,14 @@
 /* Candidate image and name styles */
 .imgNomeCandidato {
   width: 240px;
+  object-fit: cover;
 }
 
 /* Content for person image styles */
 .contentImgPerson {
   display: flex;
   width: 50%;
+  object-fit: cover;
 }
 
 /* Person image styles */
