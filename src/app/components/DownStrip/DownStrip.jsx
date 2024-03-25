@@ -15,7 +15,7 @@ export default function DownStrip() {
           {/* Article for person image */}
           <img
             className={styles.imgPerson}
-            src="/images/cironogueira.png"
+            src="/images/imagesDownStrip/cironogueira.png"
             alt=""
           />
         </article>

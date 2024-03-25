@@ -26,7 +26,7 @@ export function ScreenCandidate() {
         {/* Person image */}
         <img
           className={styles.imgPerson}
-          src="/images/cironogueira.png"
+          src="/images/imagesScreenCandidate/cironogueira.png"
           alt=""
         />
       </article>
