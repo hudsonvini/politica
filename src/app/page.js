@@ -35,10 +35,10 @@ export default function Home() {
       />
 
       {/* Render the BannerYellow component */}
-      <BannerOne />
+      <BannerOne imageBannerOne="" />
 
       {/* Render the SecondBanner component */}
-      <SecondBanner />
+      <SecondBanner imageSecondOne="" imageSecondTwo="" />
 
       {/* Render the InfoCandidate component */}
       <InfoCandidate />

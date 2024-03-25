@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./downstrip.module.css";
 
 export default function DownStrip(props) {
-  const { imgPiauiSrc, imgPersonSrc, texts, boldText } = props;
+  const { imgPiauiSrc, imgPersonSrc, texts } = props;
   return (
     <section className={styles.container}>
       {/* Section container */}
