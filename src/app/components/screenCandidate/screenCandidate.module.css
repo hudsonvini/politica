@@ -62,13 +62,13 @@
 /* Content for person image styles */
 .contentImgPerson {
   display: flex;
-  width: 50%;
+  max-width: 683px;
   object-fit: cover;
 }
 
 /* Person image styles */
 .imgPerson {
-  max-width: 683px;
+  width: 100%;
   height: 100%;
-  align-self: flex-end;
+  object-fit: cover;
 }

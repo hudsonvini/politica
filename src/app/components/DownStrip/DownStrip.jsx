@@ -8,7 +8,11 @@ export default function DownStrip() {
         {/* First article */}
         <article className={styles.contentImgPiaui}>
           {/* Article for Piaui image */}
-          <img className={styles.imgPiaui} src="/images/piaui.png" alt="" />
+          <img
+            className={styles.imgPiaui}
+            src="/images/imagesDownStrip/piaui.png"
+            alt=""
+          />
         </article>
 
         <article className={styles.contentImgPerson}>

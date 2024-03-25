@@ -80,15 +80,21 @@
   width: 50%;
 }
 
-.imageCandidate {
+.areaCandidateImg {
   position: absolute;
+  max-width: 480px;
   bottom: 0;
-  width: 480px;
+  display: flex;
+}
+
+.imageCandidate {
+  width: 100%;
+  height: 100%;
   left: 100px;
 }
 
 .areaIamgebandeira {
-  width: 50%;
+  max-width: 50%;
 }
 
 .areaIamgebandeira img {
@@ -110,12 +116,11 @@
 
   .leadCaptureArea {
     width: 100%;
-  } 
+  }
 
   .areaImage {
     display: none;
   }
-  
 }
 
 @media (max-width: 1000px) {

@@ -16,7 +16,12 @@ export default function Home() {
   return (
     <>
       {/* Render the ScreenCandidate component */}
-      <ScreenCandidate />
+      <ScreenCandidate
+        slogan="Por um pais melhor"
+        number="2222"
+        logoImage="https://cironogueira.com.br/wp-content/uploads/2023/04/logo-1024x504.png"
+        candidateImage="/images/imagesScreenCandidate/cironogueira.png"
+      />
 
       {/* Render the DownStrip component */}
       <DownStrip />
