@@ -1,0 +1,8 @@
+.containerSeparador {
+    width: 100%;
+    overflow: hidden;
+}
+
+.containerSeparador img {
+    height: 126px;
+}

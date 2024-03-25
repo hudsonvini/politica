@@ -9,6 +9,7 @@ import { BannerOne } from "./components/BannerOne/BannerOne";
 import { SecondBanner } from "./components/SecondBanner/SecondBanner";
 import Footer from "./components/Footer/Footer";
 import InfoCandidate from "./components/InfoCandidate/InfoCandidate";
+import Separador from "./components/Seperador/Separador";
 
 export default function Home() {
   return (
@@ -30,6 +31,9 @@ export default function Home() {
 
       {/* Render the Propostas component */}
       <Propostas />
+
+      {/* Separator */}
+      <Separador />
 
       {/* Render the Depoimentos component */}
       <Depoimentos />
