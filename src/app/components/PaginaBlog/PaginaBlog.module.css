@@ -1,0 +1,70 @@
+/* Styles for the container element */
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--mid-space);
+    margin-bottom: 62px;
+    margin-top: var(--large-space);
+  }
+  
+  /* Styles for the title of the blog */
+  .titleBlog {
+    color: var(--verde-escuro-home);
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  /* Styles for the content of the blog */
+  .contentBlog {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--min-space);
+  }
+  
+  /* Styles for the container of a single blog post */
+  .containerSingle {
+    flex: 1 0 30%; /* Grow and shrink, but the base is 30% */
+    max-width: 33.33%;
+    margin-bottom: var(--mid-space);
+  }
+  
+  /* Styles for the container of the blog post image */
+  .containerImgNews {
+    width: 100%;
+  }
+  
+  /* Styles for the image in the blog post */
+  .imgNewsBlog {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* Styles for the name of the news in the blog post */
+  .nameNews {
+    margin-top: var(--min-space);
+  }
+  
+  /* Styles for the date of the news in the blog post */
+  .dateNews {
+    color: var(--cinza-claro-home);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 4px 0;
+  }
+  
+  /* Styles for the paragraph of the news in the blog post */
+  .paragraphNews {
+    color: var(--cinza-escuro-home);
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the link to the news in the blog post */
+  .linkNews {
+    font-weight: 500;
+    color: var(--azul-claro-home);
+    text-decoration: none;
+  }
+  

@@ -38,6 +38,9 @@ export default function Home() {
       {/* Render the Propostas component */}
       <Propostas />
 
+      {/* Separator */}
+      <Separador />
+
       {/* Render the Blog component */}
       <Blog />
 
