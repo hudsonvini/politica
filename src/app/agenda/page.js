@@ -1,3 +1,15 @@
-export default function Agenda() {
-  return <h1>Agenda</h1>;
+import Footer from "../components/Footer/Footer"
+import NewsLetter from "../components/NewsLetter/NewsLetter"
+import Agenda from "../components/Agenda/Agenda"
+
+export default function Agenda_Candidato() {
+  return (
+    <>
+      <Agenda />
+
+      <NewsLetter />
+
+      <Footer />
+    </>
+  );
 }

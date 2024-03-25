@@ -4,7 +4,7 @@ import Link from "next/link"; // Importing the Link component from Next.js
 export default function Blog() {
   const news = [
     {
-      imageSrc: "/images/imagesBlog/exampleBlog.png", // Image source for the news
+      imageSrc: "https://cironogueira.com.br/wp-content/uploads/2024/03/complexo-esportivo-teresina.jpg", // Image source for the news
       newsTitle:
         "No Dia do Consumidor, Ciro Nogueira apresenta projetos para garantir mais segurança e transparência nas relações de consumo", // Title of the news
       newsDate: "15 de março", // Date of the news
@@ -12,7 +12,7 @@ export default function Blog() {
         "Na data em que se comemora o Dia do Consumidor, 15 de Março, o senador Ciro Nogueira (Progressistas) apresentou mais dois projetos para garantir o...", // Content of the news
     },
     {
-      imageSrc: "/images/imagesBlog/exampleBlog.png",
+      imageSrc: "https://cironogueira.com.br/wp-content/uploads/2024/03/49615255406_fe6fe4408b_k.jpg",
       newsTitle:
         "No Dia do Consumidor, Ciro Nogueira apresenta projetos para garantir mais segurança e transparência nas relações de consumo",
       newsDate: "15 de março",
@@ -20,7 +20,7 @@ export default function Blog() {
         "Na data em que se comemora o Dia do Consumidor, 15 de Março, o senador Ciro Nogueira (Progressistas) apresentou mais dois projetos para garantir o...",
     },
     {
-      imageSrc: "/images/imagesBlog/exampleBlog.png",
+      imageSrc: "https://cironogueira.com.br/wp-content/uploads/2024/03/52765409923_7b9b5c835c_4k-scaled.jpg",
       newsTitle:
         "No Dia do Consumidor, Ciro Nogueira apresenta projetos para garantir mais segurança e transparência nas relações de consumo",
       newsDate: "15 de março",
