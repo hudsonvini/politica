@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    max-width: 100vw;
 }
 
 /* area Image */
@@ -27,7 +28,7 @@
 
 .description {
     font-size: 18px;
-    margin-top: var(--mid-space);
+    margin-top: 60px;
     line-height: 140%;
 }
 
