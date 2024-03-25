@@ -1,6 +1,8 @@
+import React from "react";
 import styles from "./downstrip.module.css";
 
-export default function DownStrip() {
+export default function DownStrip(props) {
+  const { imgPiauiSrc, imgPersonSrc, texts, boldText } = props;
   return (
     <section className={styles.container}>
       {/* Section container */}
@@ -10,8 +12,8 @@ export default function DownStrip() {
           {/* Article for Piaui image */}
           <img
             className={styles.imgPiaui}
-            src="/images/imagesDownStrip/piaui.png"
-            alt=""
+            src={imgPiauiSrc}
+            alt="Imagem Piaui"
           />
         </article>
 
@@ -19,30 +21,23 @@ export default function DownStrip() {
           {/* Article for person image */}
           <img
             className={styles.imgPerson}
-            src="/images/imagesDownStrip/cironogueira.png"
-            alt=""
+            src={imgPersonSrc}
+            alt="Imagem Candidato"
           />
         </article>
       </article>
       <div className={styles.downstripContentTwo}>
         {/* Second content */}
-        <h3 className={styles.downstripText}>
-          {/* Heading for first text */}
-          foco na <br />
-          <b className={styles.boldText}>segurança</b>
-        </h3>
-        <div className={styles.lineText}></div>
-        <h3 className={styles.downstripText}>
-          {/* Heading for second text */}
-          foco na <br />
-          <b className={styles.boldText}>segurança</b>
-        </h3>
-        <div className={styles.lineText}></div>
-        <h3 className={styles.downstripText}>
-          {/* Heading for third text */}
-          foco na <br />
-          <b className={styles.boldText}>segurança</b>
-        </h3>
+        {texts.map((text, index) => (
+          <React.Fragment key={index}>
+            <h3 className={styles.downstripText}>
+              {/* Heading for text */}
+              {text.text} <br />
+              <b className={styles.boldText}>{text.bold}</b>
+            </h3>
+            <div className={styles.lineText}></div>
+          </React.Fragment>
+        ))}
       </div>
     </section>
   );

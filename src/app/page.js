@@ -17,14 +17,22 @@ export default function Home() {
     <>
       {/* Render the ScreenCandidate component */}
       <ScreenCandidate
-        slogan="Por um pais melhor"
-        number="2222"
-        logoImage="https://cironogueira.com.br/wp-content/uploads/2023/04/logo-1024x504.png"
-        candidateImage="/images/imagesScreenCandidate/cironogueira.png"
+        slogan="Por um pais melhor" // Prop: slogan - The slogan of the candidate
+        number="2222" // Prop: number - The number of the candidate
+        logoImage="https://cironogueira.com.br/wp-content/uploads/2023/04/logo-1024x504.png" // Prop: logoImage - The URL of the candidate's logo image
+        candidateImage="/images/imagesScreenCandidate/cironogueira.png" // Prop: candidateImage - The URL of the candidate's image
       />
 
       {/* Render the DownStrip component */}
-      <DownStrip />
+      <DownStrip
+        imgPiauiSrc="/images/imagesDownStrip/piaui.png" // Prop: imgPiauiSrc - The URL of the Piauí image
+        imgPersonSrc="/images/imagesDownStrip/cironogueira.png" // Prop: imgPersonSrc - The URL of the candidate's image
+        texts={[
+          { text: "foco na", bold: "Saúde" },
+          { text: "foco na", bold: "Segurança" },
+          { text: "foco na", bold: "educação" },
+        ]} // Prop: texts - An array of texts to be displayed in the DownStrip component
+      />
 
       {/* Render the BannerYellow component */}
       <BannerOne />
