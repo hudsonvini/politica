@@ -65,3 +65,56 @@
     height: 24px;
     margin-right: 10px;
 }
+
+@media (max-width: 1550px) { 
+    .container {
+      padding: 0px 80px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .areaAgenda {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        padding: 0px 20px;
+    }
+
+    .title {
+        font-size: 28px;
+      }
+
+      .areaAgenda {
+        margin-top: var(--min-space);
+      }
+
+    .dataArea {
+        font-size: 24px;
+        min-width: 100px;
+    }
+
+    .inferiorInformation {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .spot {
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+
+    .inferiorInformation span svg {
+        height: 18px;
+    }
+
+    .spot p {
+        font-size: 15px;
+    }
+}
