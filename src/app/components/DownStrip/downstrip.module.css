@@ -71,3 +71,45 @@
   font-size: 24px;
   font-weight: 700;
 }
+
+@media (max-width: 1200px) {
+  .downstripContentOne {
+    display: none;
+  }
+
+  .downstripContentTwo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .downstripText {
+    font-size: 16px;
+  }
+
+  .downstripText b {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .downstripContentTwo {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .downstripText {
+    padding: 20px 40px;
+    text-align: center;
+  }
+
+  .lineText {
+    width: 100%;
+    height: 1px;
+    margin-top: 0px;
+  }
+}
