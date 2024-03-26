@@ -12,7 +12,7 @@
   width: 45%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  justify-content: center;
 }
 
 /* Blue card styles */
@@ -22,12 +22,11 @@
   background-color: var(--azul-claro-home);
   color: white;
   padding: 10px;
-  margin-top: 143px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  padding-right: 97px;
+  padding-right: 50px;
 }
 
 /* Candidate phrase styles */
@@ -54,7 +53,7 @@
 /* Candidate image and name styles */
 .imgNomeCandidato {
   width: 240px;
-  margin-right: 97px;
+  margin-right: 50px;
   object-fit: cover;
   margin-top: var(--min-space);
 }
@@ -73,20 +72,31 @@
   object-fit: cover;
 }
 
+@media (max-width: 1280px) {
+  .cardBlue {
+    padding-right: 30px;
+  }
+  .imgNomeCandidato {
+    margin-right: 30px;
+  }
+}
+
 @media (max-width: 1000px) {
   .container {
     flex-direction: column;
+    justify-content: center;
     position: relative;
   }
+
+  .infoCandidato {
+    width: 100%;
+    gap: var(--min-space);
+  }
   .cardBlue {
-    position: absolute;
     padding: 0 var(--min-space);
   }
 
   .containerNomeImg {
-    position: absolute;
-    right: 0;
-    bottom: 20%;
     padding: 0 var(--min-space);
   }
 
@@ -100,7 +110,7 @@
   .contentImgPerson {
     position: absolute;
     bottom: 0;
-    max-width: 483px;
+    max-width: 383px;
   }
 }
 

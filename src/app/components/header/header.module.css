@@ -9,7 +9,13 @@
   padding: 0 80px 0 80px;
 }
 
-.menuLista {
+.menu {
+  display: flex;
+  gap: var(--mid-space);
+  align-items: center;
+}
+
+.menuList {
   /* Styling for the menu list */
   width: 100%;
   display: flex;
@@ -42,13 +48,59 @@
   font-weight: 500;
 }
 
+.menuIcon {
+  display: none;
+}
+
+.closeMenu {
+  display: none;
+}
+
 @media (max-width: 1000px) {
   .header {
-    padding: 0 40px 0 40px;
+    padding: 0 40px;
+    position: relative;
   }
 
-  .menuLista li:not(:first-child) {
+  .menu {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    stroke: white;
+  }
+
+  .menuList {
     display: none;
+    background-color: var(--azul-escuro-home);
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    flex-direction: column;
+    position: fixed;
+    gap: var(--min-space);
+    top: 0;
+    z-index: 50;
+    left: 0;
+    padding: var(--large-space);
+    text-align: left;
+  }
+
+  .link {
+    color: white;
+  }
+
+  .campaign {
+    display: none;
+  }
+
+  .menuIcon {
+    display: block;
   }
 }
 

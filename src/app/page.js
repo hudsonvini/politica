@@ -1,4 +1,4 @@
-'use client'
+"use client";
 // Componentes
 import { ScreenCandidate } from "./components/screenCandidate/screenCandidate";
 import Depoimentos from "./components/Depoimentos/Depoimentos";
@@ -13,9 +13,7 @@ import InfoCandidate from "./components/InfoCandidate/InfoCandidate";
 import Separador from "./components/Seperador/Separador";
 import Blog from "./components/Blog/Blog";
 
-
 export default function Home() {
-  
   return (
     <>
       {/* Render the ScreenCandidate component */}
@@ -82,10 +80,6 @@ export default function Home() {
 
       {/* Render the Footer component */}
       <Footer />
-
-      
-    
     </>
-    
   );
 }
