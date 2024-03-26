@@ -3,7 +3,9 @@ import "./globals.css";
 import { Header } from "./components/Header/Header";
 import styles from "./all.module.css";
 import { BlueStrip } from "./components/Bluestrip/blueStrip";
+import { register } from "swiper/element/bundle";
 
+register();
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata = {
