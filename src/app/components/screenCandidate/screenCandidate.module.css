@@ -72,3 +72,61 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    position: relative;
+  }
+  .cardBlue {
+    position: absolute;
+    padding: 0 var(--min-space);
+  }
+
+  .containerNomeImg {
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+    padding: 0 var(--min-space);
+  }
+
+  .imgNomeCandidato {
+    margin: 0;
+  }
+
+  .cardBlue {
+  }
+
+  .contentImgPerson {
+    position: absolute;
+    bottom: 0;
+    max-width: 483px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    position: static;
+    height: 100%;
+    align-items: center;
+    gap: 0;
+  }
+
+  .cardBlue {
+    position: static;
+    margin: 0;
+  }
+
+  .containerNomeImg {
+    position: static;
+  }
+  .infoCandidato {
+    gap: 0;
+    width: 100%;
+    gap: var(--min-space);
+  }
+
+  .contentImgPerson {
+    position: static;
+  }
+}
