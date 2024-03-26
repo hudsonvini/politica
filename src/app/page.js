@@ -40,8 +40,22 @@ export default function Home() {
       {/* Render the SecondBanner component */}
       <SecondBanner imageSecondOne="" imageSecondTwo="" />
 
-      {/* Render the InfoCandidate component */}
-      <InfoCandidate />
+      <InfoCandidate
+        nameInfo={[{ text: "Quem é", name: "Ciro Nogueira?" }]} // Prop: nameInfo - An array of objects containing the text and name of the candidate
+        paragraphInfo="Ciro Nogueira é Senador pelo estado do Piauí. Nascido em 21 de
+          novembro de 1968 em Teresina, Piauí, Ciro Nogueira é formado em
+          Direito na PUC do Rio de Janeiro. Foi Ministro de Estado Chefe da
+          Casa Civil da Presidência da República durante o governo do
+          presidente Bolsonaro (2021-2022). Foi deputado federal por quatro
+          mandatos e chegou ao Senado em 2011, sendo eleito novamente em 2018.
+          Desde 2013, Ciro Nogueira preside o Progressistas, um dos maiores
+          partidos políticos do Brasil" // Prop: paragraphInfo - The paragraph describing the candidate
+        phraseInfo="Decidi entrar na politica
+          depois de ver tanta desigualdade onde eu vivia." // Prop: phraseInfo - The phrase describing the candidate's motivation
+        birthInfo={[{ text: "nascido em 1997", name: "Ciro Nogueira" }]} // Prop: birthInfo - An array of objects containing the text and name of the candidate's birth information
+        imgInfo="https://cironogueira.com.br/wp-content/uploads/2024/03/49615255406_fe6fe4408b_k.jpg" // Prop: imgInfo - The URL of the candidate's image
+        altImgInfo="Candidato" // Prop: altImgInfo - The alt text for the candidate's image
+      />
 
       {/* Render the Propostas component */}
       <Propostas />
