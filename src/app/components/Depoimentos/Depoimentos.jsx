@@ -1,13 +1,16 @@
 "use client";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
 import style from "./Depoimentos.module.css";
 import { useEffect } from "react";
-import { register } from "swiper/element/bundle";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 export default function Depoimentos() {
-  register();
-
   useEffect(() => {
-    const swiperEl = document.querySelector("swiper-container");
+    const swiperEl = document.querySelector(".swiper-container");
     const buttonElNext = document.querySelector(".nextButton");
     const buttonElPrev = document.querySelector(".prevButton");
 
@@ -55,23 +58,28 @@ export default function Depoimentos() {
 
   return (
     <section className={style.container}>
-      <div
-        className={style.areaImage}
-        slides-per-view="1"
-        speed="500"
-        loop="true"
-        navigation="true"
-        pagination="true"
-        scrollbar="true"
+      <Swiper
+        className={`${style.areaImage} swiper-container`}
+        //breaks por resolucao no slidesPerView
+        modules={[Navigation, Pagination]}
+        slidesPerView={1}
       >
-        <img
-          src="./images/imagesDepoimentos/imagesDepoimentos.jpg"
-          alt="Image Depoimento"
-        />
-        {/* <swiper-slide>
+        <SwiperSlide>
+          <img
+            src="./images/imagesDepoimentos/imagesDepoimentos.jpg"
+            alt="Image Depoimento"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="./images/imagesDepoimentos/imagesDepoimentos.jpg"
+            alt="Image Depoimento"
+          />
+        </SwiperSlide>
+      </Swiper>
+      {/* <swiper-slide>
                     <img src="./images/imagesDepoimentos/imagesDepoimentos.jpg" alt="Image Depoimento" />
                 </swiper-slide> */}
-      </div>
 
       {/* Area Text */}
       <div className={style.areaText}>

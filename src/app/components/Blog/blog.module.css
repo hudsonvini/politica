@@ -17,7 +17,8 @@
 
 /* Styles for the content of the blog */
 .contentBlog {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   flex-wrap: wrap;
   gap: var(--min-space);
@@ -25,8 +26,8 @@
 
 /* Styles for the container of a single blog post */
 .containerSingle {
-  flex: 1 0 30%; /* Grow and shrink, but the base is 30% */
-  max-width: 33.33%;
+  /* Grow and shrink, but the base is 30% */
+  max-width: 100%;
   margin-bottom: var(--mid-space);
 }
 
