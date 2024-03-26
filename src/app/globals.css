@@ -24,15 +24,25 @@
   --ultra-large-space: 100px;
 }
 
-.transition {
-  position: absolute;
-  z-index: 2;
+.banner {
+  position: fixed;
   top: 0;
+  width: 25vw;
+  min-height: 100vh ;
+  background-color: #fff;
   left: 0;
-  background-color: #f3d70d;
-  height: 100vh;
-  width: 100%;
-  pointer-events: none;
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
+  z-index: 99;
+}
+
+.banner#banner-2 {
+  background-color: var(--amarelo-home);
+  left: 25vw;
+}
+.banner#banner-3 {
+  background-color: var(--azul-claro-home);
+  left: 50vw;
+}
+.banner#banner-4 {
+  background-color: var(--verde-escuro-home);
+  left: 75vw;
 }

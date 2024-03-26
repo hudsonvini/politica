@@ -11,6 +11,7 @@ import { register } from "swiper/element/bundle";
 import { useEffect } from "react";
 // import barba from '@barba/core';
 import { gsap } from "gsap";
+import { animatePageIn } from "./utils/animations";
 
 
 register();
@@ -41,10 +42,19 @@ export default function RootLayout({ children }) {
   //   });
   // })
 
+  useEffect(() => {
+    animatePageIn()
+  }, [])
+
   return (
     <html lang="pt-br">
       <body data-barba="wrapper" className={`${styles.body} ${urbanist.className} `}>
-          <div className="transition"></div>
+
+          <div id="banner-1" className="banner"></div>
+          <div id="banner-2" className="banner"></div>
+          <div id="banner-3" className="banner"></div>
+          <div id="banner-4" className="banner"></div>
+
           <BlueStrip />
           <Header />
           <main 
