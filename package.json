@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@barba/core": "^2.9.7",
+    "gsap": "^3.12.5",
     "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18",
     "swiper": "^11.0.7"
   },
   "devDependencies": {
+    "@types/node": "20.11.30",
+    "@types/react": "18.2.71",
     "eslint": "^8",
     "eslint-config-next": "14.1.4"
   }
