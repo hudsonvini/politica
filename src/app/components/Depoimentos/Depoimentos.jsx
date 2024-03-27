@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import { fontSecundaria } from "@/app/fonts";
 
 export default function Depoimentos() {
   useEffect(() => {
@@ -21,39 +22,6 @@ export default function Depoimentos() {
     buttonElPrev.addEventListener("click", () => {
       swiperEl.swiper.slidePrev();
     });
-
-    // swiper parameters
-    // const swiperParams = {
-    //     breakpoints: {
-    //         300: {
-    //             slidesPerView: 1.2,
-    //             spaceBetween: 20,
-    //         },
-    //         700: {
-    //             slidesPerView: 2,
-    //             spaceBetween: 20,
-    //         },
-    //         768: {
-    //             slidesPerView: 2.5,
-    //             spaceBetween: 15,
-    //         },
-    //         1024: {
-    //             slidesPerView: 1,
-    //             spaceBetween: 15,
-    //         }
-    //     },
-    //     on: {
-    //         init() {
-    //         // ...
-    //         },
-    //     },
-    // };
-
-    // // now we need to assign all parameters to Swiper element
-    // Object.assign(swiperEl, swiperParams);
-
-    // // and now initialize it
-    // swiperEl.initialize();
   });
 
   return (
@@ -77,14 +45,11 @@ export default function Depoimentos() {
           />
         </SwiperSlide>
       </Swiper>
-      {/* <swiper-slide>
-                    <img src="./images/imagesDepoimentos/imagesDepoimentos.jpg" alt="Image Depoimento" />
-                </swiper-slide> */}
 
       {/* Area Text */}
       <div className={style.areaText}>
         <h2 className={style.title}>Ele tem o apoio da população</h2>
-        <p className={style.description}>
+        <p className={`${style.description} ${fontSecundaria.className}`}>
           Ciro Nogueira é Senador pelo estado do Piauí. Nascido em 21 de
           novembro de 1968 em Teresina, Piauí, Ciro Nogueira é formado em
           Direito na PUC do Rio de Janeiro. Foi Ministro de Estado Chefe da Casa

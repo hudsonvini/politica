@@ -35,7 +35,9 @@ export const animatePageOut = (href, router) => {
             stagger: 0.2,
             onComplete: () => {
                 router.push(href)
-                animatePageIn()
+                setTimeout(() => {
+                    animatePageIn()
+                }, 500)
             }
         })
     }

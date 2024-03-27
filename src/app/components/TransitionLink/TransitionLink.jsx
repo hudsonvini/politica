@@ -2,6 +2,7 @@
 import style from './Transition.module.css'
 import { usePathname, useRouter } from "next/navigation";
 import { animatePageOut } from "@/app/utils/animations";
+import { fontPrincipal } from '@/app/fonts';
 
 export default function TransitionLink({href, label}) {
     // Animações de Transições de página
@@ -17,7 +18,7 @@ export default function TransitionLink({href, label}) {
     return (
         
         <button 
-            className={style.link} href={href}
+            className={`${style.link} ${fontPrincipal.className}`} href={href}
             onClick={handleClik}
         >
             {label}

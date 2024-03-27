@@ -27,9 +27,11 @@
 }
 
 .description {
+    font-weight: 400;
     font-size: 18px;
     margin-top: 60px;
     line-height: 140%;
+    color: #C8E1F0;
 }
 
 .dateBorn {

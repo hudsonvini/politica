@@ -1,21 +1,19 @@
 'use client'
-import { Urbanist } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/Header/Header";
 import styles from "./all.module.css";
 import { BlueStrip } from "./components/Bluestrip/blueStrip";
 import { register } from "swiper/element/bundle";
 
+// Fonts
+import { fontPrincipal } from "./fonts";
 
 // Animations
 import { useEffect } from "react";
-// import barba from '@barba/core';
-import { gsap } from "gsap";
 import { animatePageIn } from "./utils/animations";
 
-
+// Register Swiper
 register();
-const urbanist = Urbanist({ subsets: ["latin"] });
 
 // export const metadata = {
 //   title: "Create Next App",
@@ -24,32 +22,16 @@ const urbanist = Urbanist({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
 
-  // useEffect( () => {
-  //   barba.init({
-  //       sync:true,
-  //       transitions: [{
-  //           leave(data) {
-  //               return gsap.to(data.current.container, {
-  //               opacity: 0
-  //               });
-  //           },
-  //           enter(data) {
-  //               return gsap.from(data.next.container, {
-  //               opacity: 1
-  //               });
-  //           }
-  //       }]
-  //   });
-  // })
-
+  // Animação de entrada da página
   useEffect(() => {
     animatePageIn()
   }, [])
 
   return (
     <html lang="pt-br">
-      <body data-barba="wrapper" className={`${styles.body} ${urbanist.className} `}>
+      <body className={`${styles.body} ${fontPrincipal.className} `}>
 
+          {/* Transitions Pages */}
           <div id="banner-1" className="banner"></div>
           <div id="banner-2" className="banner"></div>
           <div id="banner-3" className="banner"></div>
@@ -57,11 +39,7 @@ export default function RootLayout({ children }) {
 
           <BlueStrip />
           <Header />
-          <main 
-            className={styles.main}
-            data-barba="container" 
-            data-barba-namespace="home"
-            >
+          <main className={styles.main}>
               {children}
           </main>
 

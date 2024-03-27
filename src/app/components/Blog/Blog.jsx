@@ -1,3 +1,4 @@
+import { fontSecundaria } from "@/app/fonts";
 import styles from "./blog.module.css"; // Importing CSS module
 import Link from "next/link"; // Importing the Link component from Next.js
 
@@ -53,10 +54,11 @@ export default function Blog() {
               {/* Title of the news */}
               <h4 className={styles.dateNews}>{item.newsDate}</h4>{" "}
               {/* Date of the news */}
-              <p className={styles.paragraphNews}>{item.newsContent}</p>{" "}
+              <p className={`${styles.paragraphNews} ${fontSecundaria.className}`}>{item.newsContent}</p>{" "}
               {/* Content of the news */}
               <Link className={styles.linkNews} href="#">
                 Ler mais
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
               </Link>
               {/* Link to read more */}
             </article>
