@@ -2,8 +2,12 @@
 import Link from "next/link";
 import styles from "./header.module.css";
 import { useEffect, useState } from "react";
+import TransitionLink from "../TransitionLink/TransitionLink";
 
 export function Header() {
+
+
+  // Abrir Modal Mobile
   const [menuOpen, setMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -84,27 +88,31 @@ export function Header() {
           </div>
           <li>
             {/* Home link */}
-            <Link className={styles.link} href="/">
-              Home
-            </Link>
+            <TransitionLink 
+              href={"/"}
+              label={"Home"}
+            />
           </li>
           <li>
             {/* History link */}
-            <Link className={styles.link} href="/historia">
-              História
-            </Link>
+            <TransitionLink 
+              href={"/historia"}
+              label={"historia"}
+            />
           </li>
           <li>
             {/* News link */}
-            <Link className={styles.link} href="/noticias">
-              Notícias
-            </Link>
+            <TransitionLink 
+              href={"/noticias"}
+              label={"noticias"}
+            />
           </li>
           <li>
             {/* Agenda link */}
-            <Link className={styles.link} href="/agenda">
-              Agenda
-            </Link>
+            <TransitionLink 
+              href={"/agenda"}
+              label={"agenda"}
+            />
           </li>
         </ul>
       </nav>

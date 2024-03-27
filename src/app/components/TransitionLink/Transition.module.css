@@ -1,0 +1,14 @@
+.link {
+    /* Styling for the links */
+    text-decoration: none;
+    color: #353535;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+}
+
+@media (max-width: 1000px) {
+    .link {
+        color: #fff;
+    }
+}
