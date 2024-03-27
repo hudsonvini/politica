@@ -36,10 +36,10 @@ export default function Home() {
       />
 
       {/* Render the BannerYellow component */}
-      <BannerOne imageBannerOne="" />
+      {/* <BannerOne imageBannerOne="" /> */}
 
       {/* Render the SecondBanner component */}
-      <SecondBanner imageSecondOne="" imageSecondTwo="" />
+      {/* <SecondBanner imageSecondOne="" imageSecondTwo="" /> */}
 
       <InfoCandidate
         nameInfo={[{ text: "Quem é", name: "Ciro Nogueira?" }]} // Prop: nameInfo - An array of objects containing the text and name of the candidate
@@ -54,7 +54,7 @@ export default function Home() {
         phraseInfo="Decidi entrar na politica
           depois de ver tanta desigualdade onde eu vivia." // Prop: phraseInfo - The phrase describing the candidate's motivation
         birthInfo={[{ text: "nascido em 1997", name: "Ciro Nogueira" }]} // Prop: birthInfo - An array of objects containing the text and name of the candidate's birth information
-        imgInfo="https://cironogueira.com.br/wp-content/uploads/2024/03/49615255406_fe6fe4408b_k.jpg" // Prop: imgInfo - The URL of the candidate's image
+        imgInfo="\images\imagesScreenCandidate\cironogueira.png" // Prop: imgInfo - The URL of the candidate's image
         altImgInfo="Candidato" // Prop: altImgInfo - The alt text for the candidate's image
       />
 
