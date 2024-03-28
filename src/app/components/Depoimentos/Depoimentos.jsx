@@ -34,13 +34,13 @@ export default function Depoimentos() {
       >
         <SwiperSlide>
           <img
-            src="./images/imagesDepoimentos/imagesDepoimentos.jpg"
+            src="https://images.unsplash.com/photo-1487546331507-fcf8a5d27ab3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Image Depoimento"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="./images/imagesDepoimentos/imagesDepoimentos.jpg"
+            src="https://images.unsplash.com/photo-1591451855781-9eb0f9726a33?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Image Depoimento"
           />
         </SwiperSlide>

@@ -58,7 +58,6 @@
 .inferiorInformation span {
     display: flex;
     margin-right: var(--mid-space);
-    font-weight: 500;
     color: #767676;
     font-size: 18px;
 }

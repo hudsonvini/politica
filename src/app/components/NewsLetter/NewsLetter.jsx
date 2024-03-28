@@ -1,3 +1,4 @@
+import { fontPrincipal, fontSecundaria } from "@/app/fonts";
 import style from "./NewsLetter.module.css";
 
 export default function NewsLetter() {
@@ -10,16 +11,16 @@ export default function NewsLetter() {
           <h2>
             Mantenha se informado das <br /> próximas ações
           </h2>
-          <p>
+          <p className={fontSecundaria.className}>
             Entre nessa jornada de torna o brasil um lugar melhor junto com a
             gente, estamos aqui para ouvir suas demandas
           </p>
 
           {/* Form Capture */}
           <form action="POST">
-            <input type="e-mail" placeholder="Insira seu e-mail" />
+            <input type="e-mail" placeholder="Insira seu e-mail" className={fontPrincipal.className} />
 
-            <button type="submit">Enviar</button>
+            <button className={fontPrincipal.className} type="submit">Enviar</button>
           </form>
         </div>
 

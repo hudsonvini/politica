@@ -83,14 +83,15 @@
   justify-content: center;
   width: 50px;
   height: 50px;
-  border: 1px solid #1085cd;
+  border: 1px solid var(--azul-claro-home);
   background-color: transparent;
+  background-color: var(--azul-claro-home);
   border-radius: 50%;
 }
 
 .buttonMoreInfo svg {
   height: 16px;
-  fill: #1085cd;
+  fill: #fff;
 }
 
 .contentInfoCandidate {

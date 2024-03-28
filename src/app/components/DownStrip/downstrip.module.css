@@ -7,7 +7,7 @@
 .downstripContentOne {
   /* Defines the styling for the first content section of the downstrip */
   width: 30%;
-  background-color: #209449;
+  background-color: var(--amarelo-home);
   height: 202px;
 }
 
