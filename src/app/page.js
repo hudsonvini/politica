@@ -19,7 +19,7 @@ export default function Home() {
       {/* Render the ScreenCandidate component */}
       <ScreenCandidate
         slogan="Por um pais melhor" // Prop: slogan - The slogan of the candidate
-        number="2222" // Prop: number - The number of the candidate
+        number="VOTE 2222" // Prop: number - The number of the candidate
         logoImage="https://cironogueira.com.br/wp-content/uploads/2023/04/logo-1024x504.png" // Prop: logoImage - The URL of the candidate's logo image
         candidateImage="/images/imagesScreenCandidate/cironogueira.png" // Prop: candidateImage - The URL of the candidate's image
       />

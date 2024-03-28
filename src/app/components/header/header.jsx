@@ -97,21 +97,21 @@ export function Header() {
             {/* History link */}
             <TransitionLink 
               href={"/historia"}
-              label={"historia"}
+              label={"Historia"}
             />
           </li>
           <li>
             {/* News link */}
             <TransitionLink 
               href={"/noticias"}
-              label={"noticias"}
+              label={"Noticias"}
             />
           </li>
           <li>
             {/* Agenda link */}
             <TransitionLink 
               href={"/agenda"}
-              label={"agenda"}
+              label={"Agenda"}
             />
           </li>
         </ul>

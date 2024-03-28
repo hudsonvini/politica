@@ -5,8 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 57px;
-  padding: 0 80px 0 80px;
+  padding: 40px 80px 40px 80px;
 }
 
 .menu {
@@ -46,6 +45,7 @@
   color: var(--font-white);
   padding: 15px 24px;
   font-weight: 500;
+  border-radius: 40px;
 }
 
 .menuIcon {
@@ -58,7 +58,7 @@
 
 @media (max-width: 1000px) {
   .header {
-    padding: 0 40px;
+    padding: 20px 40px;
     position: relative;
   }
 

@@ -8,10 +8,12 @@ export function ScreenCandidate(props) {
       <article className={styles.infoCandidato}>
         {/* Blue card */}
         <article className={styles.cardBlue}>
-          {/* Candidate slogan */}
-          <h3 className={styles.fraseCandidato}>{slogan}</h3>
-          {/* Candidate number */}
-          <h2 className={styles.numeroCandidato}>{number}</h2>
+          <div>
+            {/* Candidate slogan */}
+            <h3 className={styles.fraseCandidato}>{slogan}</h3>
+            {/* Candidate number */}
+            <h2 className={styles.numeroCandidato}>{number}</h2>
+          </div>
         </article>
         {/* Container for candidate name and image */}
         <article className={styles.containerNomeImg}>
