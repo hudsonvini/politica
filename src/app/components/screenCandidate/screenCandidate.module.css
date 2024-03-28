@@ -114,6 +114,7 @@
   }
   .cardBlue {
     padding: 0 var(--min-space);
+    border-radius: 0px;
   }
 
   .containerNomeImg {
@@ -122,9 +123,6 @@
 
   .imgNomeCandidato {
     margin: 0;
-  }
-
-  .cardBlue {
   }
 
   .contentImgPerson {
@@ -144,12 +142,24 @@
 
   .cardBlue {
     position: static;
+    align-items: center;
     margin: 0;
+  }
+
+  .cardBlue h2 {
+    font-size: 36px;
   }
 
   .containerNomeImg {
     position: static;
+    align-items: center;
+    margin-bottom: var(--min-space);
   }
+
+  .containerNomeImg img {
+    width: 180px;
+  }
+
   .infoCandidato {
     gap: 0;
     width: 100%;

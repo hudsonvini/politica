@@ -99,7 +99,6 @@
 
     .dataArea {
         font-size: 24px;
-        min-width: 100px;
     }
 
     .inferiorInformation {
@@ -118,5 +117,23 @@
 
     .spot p {
         font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .dataArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        margin-top: 20px;
+        height: 60px;
+        width: 60px;
+        min-width: none;
+        border-radius: 50%;
     }
 }

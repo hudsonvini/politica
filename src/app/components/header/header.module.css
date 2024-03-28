@@ -70,7 +70,17 @@
 }
 
 .menuIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--azul-claro-home);
   display: none;
+}
+
+.menuIcon svg {
+  height: 24px;
 }
 
 .closeMenu {
@@ -121,7 +131,11 @@
   }
 
   .menuIcon {
-    display: block;
+    display: flex;
+  }
+
+  .socialMediasList {
+    display: none;
   }
 }
 
