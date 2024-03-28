@@ -1,11 +1,12 @@
 /* Container styles */
 .container {
+  position: relative;
   width: 100%;
   display: flex;
   height: 70vh;
   padding-top: 20px;
   gap: var(--large-space);
-  background-image: url('./backgorund.jpg');
+  /* background-image: url('./backgorund.jpg'); */
 }
 
 /* Candidate information styles */
@@ -74,6 +75,22 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Area background */
+.areaBackgorund {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #0B5888;
+}
+
+.areaBackgorund video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .5;
 }
 
 @media (max-width: 1280px) {

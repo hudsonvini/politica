@@ -31,21 +31,42 @@
   font-weight: 700;
 }
 
-.link {
-  /* Styling for the links */
-  text-decoration: none;
-  color: #353535;
-  font-weight: 600;
+/* Social Medias List */
+.socialMediasList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.linkCampanha {
-  /* Styling for the campaign link */
-  text-decoration: none;
-  background-color: var(--azul-escuro-home);
-  color: var(--font-white);
-  padding: 15px 24px;
-  font-weight: 500;
-  border-radius: 40px;
+.socialMediasList li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.socialMediasList li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid var(--azul-claro-home);
+  transition: .3s;
+}
+
+.socialMediasList li a svg {
+  fill: var(--azul-claro-home);
+  height: 20px;
+  transition: .3s;
+}
+
+.socialMediasList li a:hover {
+  background-color: var(--azul-claro-home);
+}
+
+.socialMediasList li a:hover svg {
+  fill: #fff;
 }
 
 .menuIcon {
@@ -105,7 +126,5 @@
 }
 
 @media (max-width: 700px) {
-  .linkCampanha {
-    display: none;
-  }
+
 }

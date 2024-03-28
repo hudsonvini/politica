@@ -30,6 +30,11 @@ export function ScreenCandidate(props) {
         {/* Person image */}
         <img className={styles.imgPerson} src={candidateImage} alt="" />
       </article>
+
+      {/* Area background */}
+      <div className={styles.areaBackgorund}>
+        <video  autoPlay loop src="./videos/background.mp4"></video>
+      </div>
     </section>
   );
 }
