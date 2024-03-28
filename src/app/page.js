@@ -12,6 +12,7 @@ import Footer from "./components/Footer/Footer";
 import InfoCandidate from "./components/InfoCandidate/InfoCandidate";
 import Separador from "./components/Seperador/Separador";
 import Blog from "./components/Blog/Blog";
+import BannerTriploComVideo from "./components/BannerTriploComVideo/BannerTriploComVideo";
 
 export default function Home() {
   return (
@@ -40,6 +41,9 @@ export default function Home() {
 
       {/* Render the SecondBanner component */}
       {/* <SecondBanner imageSecondOne="" imageSecondTwo="" /> */}
+      
+
+      <BannerTriploComVideo />
 
       <InfoCandidate
         nameInfo={[{ text: "Quem é", name: "Ciro Nogueira?" }]} // Prop: nameInfo - An array of objects containing the text and name of the candidate
