@@ -73,6 +73,9 @@ export default function Home() {
       {/* Render the Depoimentos component */}
       <Depoimentos />
 
+      {/* Separator */}
+      <Separador />
+
       {/* Render the NewsLetter component */}
       <Agenda />
 

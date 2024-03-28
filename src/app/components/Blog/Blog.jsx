@@ -50,7 +50,9 @@ export default function Blog() {
             </article>
             <article className={styles.news}>
               {/* Container for the news content */}
-              <h3 className={styles.nameNews}>{item.newsTitle}</h3>{" "}
+              <Link className={styles.nameNews} href="">
+                <h3>{item.newsTitle}</h3>{" "}
+              </Link>
               {/* Title of the news */}
               <h4 className={styles.dateNews}>{item.newsDate}</h4>{" "}
               {/* Date of the news */}

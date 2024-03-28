@@ -1,7 +1,6 @@
 .container {
     display: flex;
     max-width: 100vw;
-    margin-bottom: var(--mid-space);
 }
 
 /* area Image */
@@ -53,6 +52,8 @@
     border-radius: 50%;
     border: 1px solid #fff;
     background-color: transparent;
+    transition: .3s;
+    cursor: pointer;
 }
 
 .buttonPrev {
@@ -63,6 +64,17 @@
 .buttonNext svg {
     fill: #fff;
     height: 16px;
+    transition: .3s;
+}
+
+.buttonPrev:hover,
+.buttonNext:hover {
+    background-color: #fff;
+}
+
+.buttonPrev:hover svg,
+.buttonNext:hover svg {
+    fill: var(--azul-claro-home);
 }
 
 .areaButtons {

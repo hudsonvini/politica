@@ -39,10 +39,21 @@
 }
 
 .nameNews {
+  text-decoration: none;
+}
+
+.nameNews h3 {
   margin-top: var(--min-space);
   font-size: 20px;
   font-weight: 500;
   line-height: 140%;
+  transition: .3s;
+  cursor: pointer;
+  color: #000;
+}
+
+.nameNews:hover h3{
+  color: var(--azul-claro-home);
 }
 
 .dateNews {
@@ -66,12 +77,19 @@
   color: var(--azul-claro-home);
   text-decoration: none;
   font-size: 18px;
+  width: fit-content;
 }
 
 .linkNews svg {
   fill: var(--azul-claro-home);
   height: 16px;
   margin-left: 10px;
+  transition: .3s;
+}
+
+.linkNews:hover svg {
+  fill: var(--amarelo-home);
+  margin-left: 20px;
 }
 
 @media (max-width: 1550px) {
