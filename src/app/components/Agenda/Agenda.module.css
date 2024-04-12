@@ -24,7 +24,7 @@
     display: flex;
     background-color: #F8FDFF;
     border: 1px solid #CCE5F4;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .dataArea {
@@ -36,7 +36,7 @@
     color: #fff;
     font-size: 36px;
     font-weight: 600;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 /* Information Area */
