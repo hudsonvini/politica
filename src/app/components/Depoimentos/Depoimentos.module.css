@@ -6,6 +6,7 @@
 /* area Image */
 .areaImage {
     width: 50%;
+    max-height: 600px;
 }
 
 .areaImage img {
@@ -31,7 +32,7 @@
     font-size: 18px;
     margin-top: 60px;
     line-height: 140%;
-    color: #C8E1F0;
+    color: #dbeaf4;
 }
 
 .dateBorn {

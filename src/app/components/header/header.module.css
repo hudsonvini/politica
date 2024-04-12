@@ -29,6 +29,7 @@
   color: var(--font-white);
   padding: 15px 24px;
   font-weight: 700;
+  opacity: 0%;
 }
 
 /* Social Medias List */
