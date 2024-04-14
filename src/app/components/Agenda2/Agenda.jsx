@@ -5,11 +5,8 @@ function AgendaCard(props) {
   const { date, title, time, location } = props;
   return (
     <article className={style.card}>
-      
-      <div className={style.containerDataArea}>
-        {/* Data Area */}
-        <div className={style.dataArea}>{date}</div>
-      </div>
+      {/* Data Area */}
+      <div className={style.dataArea}>{date}</div>
 
       {/* Information area */}
       <div className={style.informationArea}>

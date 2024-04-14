@@ -22,16 +22,9 @@
 /* Card */
 .card {
     display: flex;
-    /* background-color: #F8FDFF; */
+    background-color: #F8FDFF;
     border: 1px solid #CCE5F4;
     border-radius: 10px;
-}
-
-.containerDataArea {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
 }
 
 .dataArea {
@@ -39,12 +32,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 20%;
     color: #fff;
     font-size: 36px;
     font-weight: 600;
-    border-radius: 50%;
+    border-radius: 10px 0px 0px 10px;
 }
 
 /* Information Area */
@@ -131,11 +123,6 @@
 @media (max-width: 500px) {
     .card {
         flex-direction: column;
-    }
-
-    .containerDataArea {
-        justify-content: start;
-        padding: 0px;
     }
 
     .dataArea {
