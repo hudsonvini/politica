@@ -28,10 +28,11 @@ export default function BannerTriploComVideo() {
                 <img src="./images/bannerTriplo/bannerVideo.png" alt="" />
 
                 <button className={`${style.watchButton} ${fontPrincipal.className}`}>
-                    <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="39" cy="39" r="39" fill="white"/>
-                        <path d="M53 39L32 51.1244L32 26.8756L53 39Z" fill="#0071B7"/>
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="18" cy="18" r="18" fill="white"/>
+                        <path d="M22.9614 17.134C23.6281 17.5189 23.6281 18.4811 22.9614 18.866L16.2691 22.7298C15.6025 23.1147 14.7691 22.6336 14.7691 21.8638L14.7691 14.1362C14.7691 13.3664 15.6025 12.8853 16.2691 13.2702L22.9614 17.134Z" fill="#0071B7"/>
                     </svg>
+
                     Assistir Video
                 </button>
             </article>
