@@ -46,6 +46,48 @@ export default function Agenda() {
           time="14:00"
           location="Teresina, Piauí"
         />
+        <AgendaCard
+          date="14"
+          title="Entrevista na radio bandeirantes"
+          time="14:00"
+          location="Teresina, Piauí"
+        />
+        <AgendaCard
+          date="14"
+          title="Entrevista na radio bandeirantes"
+          time="14:00"
+          location="Teresina, Piauí"
+        />
+        <AgendaCard
+          date="14"
+          title="Entrevista na radio bandeirantes"
+          time="14:00"
+          location="Teresina, Piauí"
+        />
+        <AgendaCard
+          date="14"
+          title="Entrevista na radio bandeirantes"
+          time="14:00"
+          location="Teresina, Piauí"
+        />
+        <AgendaCard
+          date="14"
+          title="Entrevista na radio bandeirantes"
+          time="14:00"
+          location="Teresina, Piauí"
+        />
+        <AgendaCard
+          date="14"
+          title="Entrevista na radio bandeirantes"
+          time="14:00"
+          location="Teresina, Piauí"
+        />
+        <AgendaCard
+          date="14"
+          title="Entrevista na radio bandeirantes"
+          time="14:00"
+          location="Teresina, Piauí"
+        />
       </div>
     </section>
   );

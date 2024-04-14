@@ -11,7 +11,7 @@
 
 .nameInfoCandidate {
   /* Styling for the nameInfoCandidate element */
-  color: #000;
+  color: var(--azul-claro-home);
   font-size: 36px;
   font-weight: 600;
   margin-bottom: var(--min-space);
@@ -40,58 +40,84 @@
   color: #3E3E3E;
 }
 
+/* Stats */
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.stats li .topText {
+  font-size: 16px;
+  color: #535353;
+  letter-spacing: 1.4px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.stats li p {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.stats li p b {
+  color: var(--amarelo-home);
+  font-weight: 600;
+}
+
 .phraseCandidate {
   /* Styling for the phraseCandidate element */
+  margin: 0 auto;
   color: black;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 140%;
   font-weight: 500;
-  max-width: 783px;
+  max-width: 600px;
+  text-align: center;
 }
 
 .marksColor {
   /* Styling for the marksColor element */
-  color: var(--azul-escuro-home);
+  color: var(--azul-claro-home);
 }
 
 /* Area More Info */
 .areaMoreInfo {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-top: var(--min-space);
 }
 
 .birthCandidate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: var(--azul-claro-home);
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
 }
+
 
 .nameTextBold {
   font-weight: 800;
   font-size: 20px;
   line-height: 24px;
-  margin-top: 10px;
   line-height: 160%;
-}
-
-.buttonMoreInfo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  border: 1px solid var(--azul-claro-home);
-  background-color: transparent;
-  background-color: var(--azul-claro-home);
-  border-radius: 50%;
-}
-
-.buttonMoreInfo svg {
-  height: 16px;
-  fill: #fff;
 }
 
 .contentInfoCandidate {
@@ -154,5 +180,13 @@
   .contentImgCandidate {
     width: 100%;
     height: 300px;
+  }
+
+  .stats li .topText {
+    font-size: 14px;
+  }
+
+  .stats li p {
+    font-size: 20px;
   }
 }

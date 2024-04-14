@@ -11,6 +11,7 @@ export default function InfoCandidate(props) {
     imgInfo,
     altImgInfo,
   } = props;
+
   return (
     <section className={styles.container}>
       {/* Container for candidate information */}
@@ -28,13 +29,14 @@ export default function InfoCandidate(props) {
         <div className={styles.contentTextCandidate}>
           {/* Paragraph */}
           <p className={`${styles.paragraphCandidate} ${fontSecundaria.className}`}>{paragraphInfo}</p>
+          
           {/* Quote */}
           <span className={styles.phraseCandidate}>
             <b className={styles.marksColor}>“</b>
             {phraseInfo}
             <b className={styles.marksColor}>”</b>
           </span>
-          
+
           {/* Area More info */}
           <div className={styles.areaMoreInfo}>
             {/* Subheading */}
@@ -42,17 +44,31 @@ export default function InfoCandidate(props) {
               {birthInfo.map((item, index) => (
                 <React.Fragment key={index}>
                   {item.text}
-                  <br />
                   <b className={styles.nameTextBold}>{item.name}</b>
                 </React.Fragment>
               ))}
             </h4>
-
-            {/* More Info */}
-            <button className={styles.buttonMoreInfo}>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>
-            </button>
           </div>
+          {/* Stats */}
+          <ul className={styles.stats}>
+              <li>
+                  <span className={styles.topText}>projetos</span>
+                  <p><b>+ </b>25</p>
+              </li>
+              <li>
+                  <span className={styles.topText}>anos</span>
+                  <p><b>+ </b>3</p>
+              </li>
+              <li>
+                  <span className={styles.topText}>alcance</span>
+                  <p><b>+ </b>100k</p>
+              </li>
+              <li>
+                  <span className={styles.topText}>experiência</span>
+                  <p><b>+ </b>10 anos</p>
+              </li>
+          </ul>          
+          
         </div>
       </div>
       {/* Container for candidate image */}

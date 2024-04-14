@@ -112,7 +112,6 @@
     background-color: var(--azul-escuro-home);
     width: 100%;
     height: 100%;
-    opacity: 0.8;
     flex-direction: column;
     position: fixed;
     gap: var(--min-space);
