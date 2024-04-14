@@ -44,7 +44,6 @@
 .stats {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
   margin-top: 20px;
   width: 100%;
@@ -75,19 +74,17 @@
 }
 
 .stats li p b {
-  color: var(--amarelo-home);
+  color: var(--azul-claro-home);
   font-weight: 600;
 }
 
 .phraseCandidate {
   /* Styling for the phraseCandidate element */
-  margin: 0 auto;
   color: black;
   font-size: 24px;
   line-height: 140%;
   font-weight: 500;
   max-width: 600px;
-  text-align: center;
 }
 
 .marksColor {
@@ -98,14 +95,12 @@
 /* Area More Info */
 .areaMoreInfo {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .birthCandidate {
   display: flex;
   flex-direction: column;
-  align-items: center;
   color: var(--azul-claro-home);
   text-transform: uppercase;
   font-size: 14px;
@@ -141,7 +136,7 @@
 .ImgCandidate {
   /* width: 90%; */
   /* Styling for the ImgCandidate element */
-  height: 95%;
+  height: 100%;
   object-fit: cover;
   /* padding: 0 20px; */
 }

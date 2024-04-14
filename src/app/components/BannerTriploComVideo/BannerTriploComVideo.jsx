@@ -6,9 +6,9 @@ export default function BannerTriploComVideo() {
         <section className={style.containter}>
             {/* Banner Principal */}
             <article className={style.principalBanner}>
-                <img src="https://cironogueira.com.br/wp-content/uploads/2023/11/53266339200_2770a5de70_k.jpg" alt="" />
+                <img src="./images/bannerTriplo/bannerPrincipal.png" alt="" />
 
-                <h2><b>“</b>Decidi entrar na politica depois de ver tanta desigualdade onde eu vivia.<b>”</b></h2>
+                {/* <h2><b>“</b>Decidi entrar na politica depois de ver tanta desigualdade onde eu vivia.<b>”</b></h2> */}
             </article>
 
             {/* Banner Download */}
@@ -25,7 +25,7 @@ export default function BannerTriploComVideo() {
 
             {/*  */}
             <article className={style.bannerVideo}>
-                <img src="https://cironogueira.com.br/wp-content/uploads/2023/10/ciro-nogueira-senador-piaui.jpg" alt="" />
+                <img src="./images/bannerTriplo/bannerVideo.png" alt="" />
 
                 <button className={`${style.watchButton} ${fontPrincipal.className}`}>
                     <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
