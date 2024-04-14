@@ -19,6 +19,8 @@ function PropostasText(props) {
 export default function Propostas() {
   return (
     <section className={style.container}>
+      {/* Container section */}
+      <h2 className={style.titleBlog}>Propostas</h2> {/* Title of the blog */}
       {/* grid Propostas */}
       <div className={style.gridProposta}>
         {/* card */}

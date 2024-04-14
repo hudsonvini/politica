@@ -5,6 +5,12 @@
     margin-bottom: var(--large-space);
 }
 
+.titleBlog {
+    color: var(--azul-claro-home);
+    font-size: 36px;
+    font-weight: 600;
+}
+
 /* Grid Propostas */
 .gridProposta {
     display: grid;
@@ -73,6 +79,8 @@
 @media (max-width: 700px) {
     .container {
         padding: 0px 20px;
+        margin-top: var(--min-space);
+        margin-bottom: var(--min-space);
     }
 }
 

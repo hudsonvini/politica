@@ -45,6 +45,9 @@ export default function Home() {
 
       <BannerTriploComVideo />
 
+      {/* Separator */}
+      <Separador />
+
       <InfoCandidate
         nameInfo={[{ text: "Quem é", name: "Ciro Nogueira?" }]} // Prop: nameInfo - An array of objects containing the text and name of the candidate
         paragraphInfo="Ciro Nogueira é Senador pelo estado do Piauí. Nascido em 21 de
@@ -61,6 +64,9 @@ export default function Home() {
         imgInfo="/images/infoCandidate/iamgeCandidate2.png" // Prop: imgInfo - The URL of the candidate's image
         altImgInfo="Candidato" // Prop: altImgInfo - The alt text for the candidate's image
       />
+
+      {/* Separator */}
+      <Separador />
 
       {/* Render the Propostas component */}
       <Propostas />

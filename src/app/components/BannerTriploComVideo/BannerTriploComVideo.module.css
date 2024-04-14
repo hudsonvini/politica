@@ -65,30 +65,30 @@
     background-color: #fff;
     border: none;
     color: var(--azul-claro-home);
-    padding: 12px;
+    padding: 12px 18px;
     margin-top: var(--min-space);
     width: fit-content;
     font-weight: 500;
     font-size: 16px;
     transition: .3s;
     cursor: pointer;
+    border-radius: 40px;
 }
 
 .bannerDownload button svg {
     height: 20px;
     margin-left: 10px;
-    fill: var(--azul-claro-home);
     transition: .3s;
+    fill: var(--azul-claro-home);
 }
 
 .bannerDownload button:hover {
-    background-color: transparent;
-    box-shadow: 0px 0px 0px 1px #fff;
-    color: #fff;
+    background-color: #cee6f5;
+    color: var(--azul-claro-home);
 }
 
 .bannerDownload button:hover svg {
-    fill: #fff;
+    fill: var(--azul-claro-home);
 }
 
 
