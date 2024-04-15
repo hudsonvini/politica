@@ -61,7 +61,7 @@ export default function Home() {
         phraseInfo="Decidi entrar na politica
           depois de ver tanta desigualdade onde eu vivia." // Prop: phraseInfo - The phrase describing the candidate's motivation
         birthInfo={[{ text: "nascido em 1997", name: "Ciro Nogueira" }]} // Prop: birthInfo - An array of objects containing the text and name of the candidate's birth information
-        imgInfo="/images/infoCandidate/iamgeCandidate2.png" // Prop: imgInfo - The URL of the candidate's image
+        imgInfo="/images/infoCandidate/iamgeCandidate.png" // Prop: imgInfo - The URL of the candidate's image
         altImgInfo="Candidato" // Prop: altImgInfo - The alt text for the candidate's image
       />
 

@@ -6,7 +6,7 @@ export default function Blog() {
   const news = [
     {
       imageSrc:
-        "https://cironogueira.com.br/wp-content/uploads/2024/03/complexo-esportivo-teresina.jpg", // Image source for the news
+        "/images/imagesBlog/exampleBlog.png", // Image source for the news
       newsTitle:
         "No Dia do Consumidor, Ciro Nogueira apresenta projetos para garantir mais segurança e transparência nas relações de consumo", // Title of the news
       newsDate: "15 de março", // Date of the news
@@ -15,7 +15,7 @@ export default function Blog() {
     },
     {
       imageSrc:
-        "https://cironogueira.com.br/wp-content/uploads/2024/03/49615255406_fe6fe4408b_k.jpg",
+        "/images/imagesBlog/exampleBlog2.png",
       newsTitle:
         "No Dia do Consumidor, Ciro Nogueira apresenta projetos para garantir mais segurança e transparência nas relações de consumo",
       newsDate: "15 de março",
@@ -24,7 +24,7 @@ export default function Blog() {
     },
     {
       imageSrc:
-        "https://cironogueira.com.br/wp-content/uploads/2024/03/52765409923_7b9b5c835c_4k-scaled.jpg",
+        "/images/imagesBlog/exampleBlog3.png",
       newsTitle:
         "No Dia do Consumidor, Ciro Nogueira apresenta projetos para garantir mais segurança e transparência nas relações de consumo",
       newsDate: "15 de março",

@@ -8,7 +8,10 @@
 }
 
 .imageArea img {
+    width: 100%;
     max-height: 700px;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Info Area */
@@ -44,7 +47,7 @@
 
 @media (max-width: 1000px) {
     .container {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .imageArea {

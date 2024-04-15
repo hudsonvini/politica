@@ -13,7 +13,7 @@ export default function PaginaBlog() {
         "Na data em que se comemora o Dia do Consumidor, 15 de Março, o senador Ciro Nogueira (Progressistas) apresentou mais dois projetos para garantir o...", // Content of the news
     },
     {
-      imageSrc: "https://cironogueira.com.br/wp-content/uploads/2024/03/49615255406_fe6fe4408b_k.jpg",
+      imageSrc: "/images/imagesBlog/exampleBlog2.png",
       newsTitle:
         "No Dia do Consumidor, Ciro Nogueira apresenta projetos para garantir mais segurança e transparência nas relações de consumo",
       newsDate: "15 de março",
@@ -21,7 +21,7 @@ export default function PaginaBlog() {
         "Na data em que se comemora o Dia do Consumidor, 15 de Março, o senador Ciro Nogueira (Progressistas) apresentou mais dois projetos para garantir o...",
     },
     {
-      imageSrc: "https://cironogueira.com.br/wp-content/uploads/2024/03/52765409923_7b9b5c835c_4k-scaled.jpg",
+      imageSrc: "/images/imagesBlog/exampleBlog3.png",
       newsTitle:
         "No Dia do Consumidor, Ciro Nogueira apresenta projetos para garantir mais segurança e transparência nas relações de consumo",
       newsDate: "15 de março",
