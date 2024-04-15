@@ -14,6 +14,15 @@ export default function InfoCandidate(props) {
 
   return (
     <section className={styles.container}>
+      {/* Container for candidate image */}
+      <div className={styles.contentImgCandidate}>
+        {/* Candidate image */}
+        <img
+          className={styles.ImgCandidate}
+          src={imgInfo}
+          alt={altImgInfo}
+        />
+      </div>
       {/* Container for candidate information */}
       <div className={styles.contentInfoCandidate}>
         {/* Heading */}
@@ -70,15 +79,6 @@ export default function InfoCandidate(props) {
           </ul>          
           
         </div>
-      </div>
-      {/* Container for candidate image */}
-      <div className={styles.contentImgCandidate}>
-        {/* Candidate image */}
-        <img
-          className={styles.ImgCandidate}
-          src={imgInfo}
-          alt={altImgInfo}
-        />
       </div>
     </section>
   );

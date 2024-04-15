@@ -6,7 +6,7 @@ export default function HistoriaCandidato() {
         <section className={style.container}>
             {/* Image Area */}
             <div className={style.imageArea}>
-                <img src="./images/imagesHistoria/imageHistoriaCandidato.png" alt="Imagem do Candidato" />
+                <img src="./images/imagesHistoria/imageHistoriaCandidato2.png" alt="Imagem do Candidato" />
             </div>
 
             <div className={style.containerInfo}>

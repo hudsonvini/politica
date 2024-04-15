@@ -1,8 +1,8 @@
 .container {
     max-width: 1500px;
     margin: 0 auto;
-    margin-top: var(--large-space);
-    margin-bottom: var(--large-space);
+    margin-top: var(--min-space);
+    margin-bottom: var(--min-space);
 }
 
 .containerTitle {
