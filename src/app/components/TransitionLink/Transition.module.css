@@ -1,17 +1,33 @@
 .link {
     /* Styling for the links */
+    position: relative;
     text-decoration: none;
     color: #353535;
-    font-weight: 600;
+    font-weight: 500;
     background-color: transparent;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     transition: .3s;
     cursor: pointer;
 }
 
 .link:hover {
     color: var(--azul-claro-home);
+}
+
+.link::after {
+    position: absolute;
+    content: '';
+    bottom: -8px;
+    left: 0px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--azul-claro-home);
+    transition: .3s;
+}
+
+.link:hover::after {
+    width: 100%;
 }
 
 @media (max-width: 1000px) {

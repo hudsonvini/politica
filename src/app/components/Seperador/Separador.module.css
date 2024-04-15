@@ -1,6 +1,8 @@
 .containerSeparador {
     width: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .containerSeparador img {
