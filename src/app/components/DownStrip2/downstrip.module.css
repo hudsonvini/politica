@@ -40,9 +40,9 @@
 
 .downstripContentTwo {
   /* Defines the styling for the second content section of the downstrip */
-  width: 100%;
+  width: 70%;
   background-color: var(--azul-claro-home);
-  height: 140px;
+  height: 202px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,7 +73,7 @@
 .boldText {
   /* Defines the styling for the bold text within the second section */
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 600;
 }
 

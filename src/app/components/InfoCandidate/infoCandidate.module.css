@@ -60,16 +60,16 @@
 }
 
 .stats li .topText {
-  font-size: 16px;
-  color: #535353;
+  font-size: 14px;
+  color: var(--azul-claro-home);
   letter-spacing: 1.4px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
 .stats li p {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
