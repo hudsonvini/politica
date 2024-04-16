@@ -45,9 +45,6 @@ export default function Home() {
 
       <BannerTriploComVideo />
 
-      {/* Separator */}
-      <Separador />
-
       <InfoCandidate
         nameInfo={[{ text: "Quem é", name: "Ciro Nogueira?" }]} // Prop: nameInfo - An array of objects containing the text and name of the candidate
         paragraphInfo="Ciro Nogueira é Senador pelo estado do Piauí. Nascido em 21 de
@@ -74,14 +71,14 @@ export default function Home() {
       {/* Separator */}
       <Separador />
 
-      {/* Render the Blog component */}
-      <Blog />
+      {/* Render the Depoimentos component */}
+      <Depoimentos />
 
       {/* Separator */}
       <Separador />
 
-      {/* Render the Depoimentos component */}
-      <Depoimentos />
+      {/* Render the Blog component */}
+      <Blog />
 
       {/* Separator */}
       <Separador />
