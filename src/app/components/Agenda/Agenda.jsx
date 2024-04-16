@@ -45,51 +45,51 @@ export default function Agenda() {
       <div className={style.areaAgenda}>
         <AgendaCard
           date="14"
-          title="Entrevista na radio bandeirantes"
+          title="Sabatina Rede Globo - Programa Hoje"
+          time="13:00"
+          location="Teresina, Piauí"
+        />
+        <AgendaCard
+          date="14"
+          title="Passeata pela liberade - Praça São Benedito"
+          time="14:00"
+          location="Parnaíba, Piauí"
+        />
+        <AgendaCard
+          date="14"
+          title="Sabatina de Pré-Candidatos - Jornal Agora"
+          time="14:00"
+          location="Campo Grande, São Paulo"
+        />
+        <AgendaCard
+          date="14"
+          title="Discurso de campanha e reunião com eleitorado"
+          time="14:00"
+          location="Campinas, São paulo"
+        />
+        <AgendaCard
+          date="14"
+          title="Marcha pela Democrácia"
           time="14:00"
           location="Teresina, Piauí"
         />
         <AgendaCard
           date="14"
-          title="Entrevista na radio bandeirantes"
+          title="Campanha de apoio contra o Cancer de Mama"
+          time="14:00"
+          location="Uruaçu, Piauí"
+        />
+        <AgendaCard
+          date="14"
+          title="Entrevista na Radio Bandeirantes"
           time="14:00"
           location="Teresina, Piauí"
         />
         <AgendaCard
           date="14"
-          title="Entrevista na radio bandeirantes"
+          title="Entrevista Jovem Pan"
           time="14:00"
-          location="Teresina, Piauí"
-        />
-        <AgendaCard
-          date="14"
-          title="Entrevista na radio bandeirantes"
-          time="14:00"
-          location="Teresina, Piauí"
-        />
-        <AgendaCard
-          date="14"
-          title="Entrevista na radio bandeirantes"
-          time="14:00"
-          location="Teresina, Piauí"
-        />
-        <AgendaCard
-          date="14"
-          title="Entrevista na radio bandeirantes"
-          time="14:00"
-          location="Teresina, Piauí"
-        />
-        <AgendaCard
-          date="14"
-          title="Entrevista na radio bandeirantes"
-          time="14:00"
-          location="Teresina, Piauí"
-        />
-        <AgendaCard
-          date="14"
-          title="Entrevista na radio bandeirantes"
-          time="14:00"
-          location="Teresina, Piauí"
+          location="Lilopolís, Piauí"
         />
       </div>
     </section>

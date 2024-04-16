@@ -31,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 0px 20px;
 }
 
 .dataArea {
@@ -39,17 +39,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     color: #fff;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 600;
     border-radius: 50%;
 }
 
 /* Information Area */
 .informationArea {
-    padding: 28px 32px;
+    padding: 28px 32px 28px 0px;
 }
 
 .informationArea h3 {
