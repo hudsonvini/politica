@@ -16,7 +16,7 @@
 .leadCaptureArea {
   width: 50%;
   padding: 70px;
-  color: #fff;
+  color: var(--newsletter-cor-text);
 }
 
 .leadCaptureArea h2 {
@@ -44,14 +44,14 @@
 .leadCaptureArea form {
   display: flex;
   align-items: center;
-  border: 1px solid #fff;
+  border: 1px solid var(--newsletter-cor-text);
   padding: 4px;
 }
 
 .leadCaptureArea form input {
   background-color: transparent;
   border: none;
-  color: #fff;
+  color: var(--newsletter-cor-text);
   height: 100%;
   width: 100%;
   padding: 16px 20px;
@@ -59,7 +59,7 @@
 }
 
 .leadCaptureArea form input::placeholder {
-  color: #fff;
+  color: var(--newsletter-cor-text);
 }
 
 .leadCaptureArea form input:focus {
@@ -69,7 +69,7 @@
 
 .leadCaptureArea form button {
   background-color: var(--newsletter-second-color);
-  color: #000;
+  color: #fff;
   font-weight: 600;
   border: none;
   padding: 16px 40px;

@@ -6,7 +6,7 @@
 /* area Image */
 .areaImage {
     width: 50%;
-    max-height: 800px;
+    max-height: 520px;
 }
 
 .areaImage img {
@@ -25,12 +25,13 @@
 
 .title {
     font-size: 36px;
+    font-weight: 600;
 }
 
 .description {
     font-weight: 400;
     font-size: 18px;
-    margin-top: 60px;
+    margin-top: 40px;
     line-height: 140%;
     color: #dbeaf4;
 }
@@ -53,6 +54,7 @@
     border-radius: 50%;
     border: 1px solid #fff;
     background-color: transparent;
+    background-color: #fff;
     transition: .3s;
     cursor: pointer;
 }
@@ -64,6 +66,7 @@
 .buttonPrev svg,
 .buttonNext svg {
     fill: #fff;
+    fill: var(--azul-claro-home);
     height: 16px;
     transition: .3s;
 }
