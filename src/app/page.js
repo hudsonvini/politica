@@ -68,10 +68,8 @@ export default function Home() {
 
       {/* Render the Propostas component */}
       <Propostas />
-
-      {/* Separator */}
-      {/* <Separador /> */}
-
+      
+      {/* Carrosel Depoimentos */}
       <CarroselDepoimentos />
 
       {/* Render the NewsLetter component */}
@@ -80,11 +78,11 @@ export default function Home() {
       {/* Render the Blog component */}
       <Blog />
 
-      {/* Render the Depoimentos component */}
-      {/* <Depoimentos /> */}
-
       {/* Separator */}
       {/* <Separador /> */}
+
+      {/* Render the Depoimentos component */}
+      {/* <Depoimentos /> */}
 
       {/* Separator */}
       <Separador />

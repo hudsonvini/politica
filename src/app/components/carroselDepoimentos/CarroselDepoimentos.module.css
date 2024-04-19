@@ -1,5 +1,5 @@
 .container {
-    max-width: 1500px;
+    /* max-width: 1500px; */
     margin: 0 auto;
     margin-top: 140px;
     margin-bottom: 80px;
@@ -19,15 +19,80 @@
 }
 
 .rollContainer {
-    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+.rollContainer::after,
+.rollContainer::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    z-index: 2;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    backdrop-filter: blur(1px);
+}
+
+.rollContainer::after {
+    left: 0px;
+}
+
+.rollContainer::before {
+    right: 0px;
+    transform: rotateZ(180deg);
+}
+
+.rollContainer.roll2 {
     margin-top: 20px;
+}
+
+.SlideContainer {
+    display: flex;
+    width: calc(350px * 10);
+    animation: scroll 20s linear infinite;
+}
+
+.rollContainer.roll2 .SlideContainer {
+    animation: scroll2 20s linear infinite;
+}
+
+/* .card {
+    position: relative;
+    width: 350px;
+    width: 100%;
+    height: 400px;
+    margin-right: 20px;
+} */
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-350px * 5));
+    }
+}
+
+@keyframes scroll2 {
+    0% {
+        transform: translateX(calc(-350px * 5))
+        
+    }
+    100% {
+        transform: translateX(0);;
+    }
 }
 
 .card {
     position: relative;
     width: 350px;
     height: 400px;
-    margin-right: 20px;
+    padding-right: 20px;
 }
 
 .card img {
