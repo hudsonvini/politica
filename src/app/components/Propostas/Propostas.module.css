@@ -1,7 +1,7 @@
 .container {
     max-width: 1500px;
     margin: 0 auto;
-    margin-top: var(--min-space);
+    margin-top: var(--large-space);
     margin-bottom: var(--min-space);
 }
 

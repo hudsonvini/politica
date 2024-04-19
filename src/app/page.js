@@ -13,6 +13,7 @@ import InfoCandidate from "./components/InfoCandidate/InfoCandidate";
 import Separador from "./components/Seperador/Separador";
 import Blog from "./components/Blog/Blog";
 import BannerTriploComVideo from "./components/BannerTriploComVideo/BannerTriploComVideo";
+import CarroselDepoimentos from "./components/carroselDepoimentos/CarroselDepoimentos";
 
 export default function Home() {
   return (
@@ -63,28 +64,30 @@ export default function Home() {
       />
 
       {/* Separator */}
-      <Separador />
+      {/* <Separador /> */}
 
       {/* Render the Propostas component */}
       <Propostas />
 
       {/* Separator */}
-      <Separador />
+      {/* <Separador /> */}
 
-      {/* Render the Depoimentos component */}
-      <Depoimentos />
+      <CarroselDepoimentos />
 
-      {/* Separator */}
-      <Separador />
+      {/* Render the NewsLetter component */}
+      <Agenda />
 
       {/* Render the Blog component */}
       <Blog />
 
+      {/* Render the Depoimentos component */}
+      {/* <Depoimentos /> */}
+
+      {/* Separator */}
+      {/* <Separador /> */}
+
       {/* Separator */}
       <Separador />
-
-      {/* Render the NewsLetter component */}
-      <Agenda />
 
       <NewsLetter />
 
