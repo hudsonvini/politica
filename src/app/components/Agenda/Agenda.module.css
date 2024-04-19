@@ -22,9 +22,9 @@
 /* Card */
 .card {
     display: flex;
-    /* background-color: #F8FDFF; */
-    border: 1px solid #CCE5F4;
-    border-radius: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
 }
 
 .containerDataArea {

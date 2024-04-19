@@ -66,6 +66,10 @@ export default function Home() {
         altImgInfo="Candidato" // Prop: altImgInfo - The alt text for the candidate's image
       />
 
+      
+      {/* Carrosel Depoimentos */}
+      <CarroselDepoimentos />
+
       {/* Separator */}
       {/* <Separador /> */}
 
@@ -77,17 +81,14 @@ export default function Home() {
       {/* Render the NewsLetter component */}
       <Agenda />
 
-      {/* Carrosel Depoimentos */}
-      <CarroselDepoimentos />
-
       {/* Render the Blog component */}
       <Blog />
 
       {/* Separator */}
-      <Separador />
 
       <NewsLetter />
 
+      <Separador />
       {/* Render the Footer component */}
       <Footer />
     </>
