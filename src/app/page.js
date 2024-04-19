@@ -14,10 +14,13 @@ import Separador from "./components/Seperador/Separador";
 import Blog from "./components/Blog/Blog";
 import BannerTriploComVideo from "./components/BannerTriploComVideo/BannerTriploComVideo";
 import CarroselDepoimentos from "./components/carroselDepoimentos/CarroselDepoimentos";
+import HeroSectionBanner from "./components/HeroSectionBanner/HeroSectionBanner";
 
 export default function Home() {
   return (
     <>
+      <HeroSectionBanner image={'./images/HeroSectionBanner/image.jpg'}/>
+
       {/* Render the ScreenCandidate component */}
       {/* <ScreenCandidate
         slogan="Por um pais melhor" // Prop: slogan - The slogan of the candidate
@@ -68,21 +71,17 @@ export default function Home() {
 
       {/* Render the Propostas component */}
       <Propostas />
-      
-      {/* Carrosel Depoimentos */}
-      <CarroselDepoimentos />
+
+      <Depoimentos />
 
       {/* Render the NewsLetter component */}
       <Agenda />
 
+      {/* Carrosel Depoimentos */}
+      <CarroselDepoimentos />
+
       {/* Render the Blog component */}
       <Blog />
-
-      {/* Separator */}
-      {/* <Separador /> */}
-
-      {/* Render the Depoimentos component */}
-      {/* <Depoimentos /> */}
 
       {/* Separator */}
       <Separador />
