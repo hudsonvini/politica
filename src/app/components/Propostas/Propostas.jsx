@@ -47,7 +47,7 @@ export default function Propostas() {
             </svg>
           }
           title="No Empreendedorismo"
-          subtitle="Decidi entrar na politica depois de ver tanta desigualdade onde eu vivia."
+          subtitle="Mais programas de incentivo ao pequeno e medio empreendedor."
           description="Ciro Nogueira é Senador pelo estado do Piauí. Nascido em 21 de novembro de 1968 em Teresina, Piauí, Ciro Nogueira é formado em Direito na PUC do Rio de Janeiro. Foi Ministro de Estado Chefe da Casa Civil da Presidência da República durante o governo do presidente Bolsonaro (2021-2022). Foi deputado federal por quatro mandatos e chegou ao Senado em 2011, sendo eleito novamente em 2018. Desde 2013, Ciro Nogueira preside o Progressistas, um dos maiores partidos políticos do Brasil"
         />
         <PropostasText
@@ -57,7 +57,7 @@ export default function Propostas() {
             </svg>
           }
           title="Na Infraestrutura"
-          subtitle="Decidi entrar na politica depois de ver tanta desigualdade onde eu vivia."
+          subtitle="Ampliação do programa de construção de auto estradas estratégicas para o escoamento de alimentos."
           description="Ciro Nogueira é Senador pelo estado do Piauí. Nascido em 21 de novembro de 1968 em Teresina, Piauí, Ciro Nogueira é formado em Direito na PUC do Rio de Janeiro. Foi Ministro de Estado Chefe da Casa Civil da Presidência da República durante o governo do presidente Bolsonaro (2021-2022). Foi deputado federal por quatro mandatos e chegou ao Senado em 2011, sendo eleito novamente em 2018. Desde 2013, Ciro Nogueira preside o Progressistas, um dos maiores partidos políticos do Brasil"
         />
         <PropostasText
@@ -67,7 +67,7 @@ export default function Propostas() {
             </svg>
           }
           title="Na Educação"
-          subtitle="Decidi entrar na politica depois de ver tanta desigualdade onde eu vivia."
+          subtitle="Mudança da grade curricular do ensino fundamental e médio."
           description="Ciro Nogueira é Senador pelo estado do Piauí. Nascido em 21 de novembro de 1968 em Teresina, Piauí, Ciro Nogueira é formado em Direito na PUC do Rio de Janeiro. Foi Ministro de Estado Chefe da Casa Civil da Presidência da República durante o governo do presidente Bolsonaro (2021-2022). Foi deputado federal por quatro mandatos e chegou ao Senado em 2011, sendo eleito novamente em 2018. Desde 2013, Ciro Nogueira preside o Progressistas, um dos maiores partidos políticos do Brasil"
         />
       </div>

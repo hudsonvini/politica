@@ -1,5 +1,7 @@
 .container {
     display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 /* Image Area */
@@ -12,6 +14,7 @@
     max-height: 700px;
     height: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 /* Info Area */

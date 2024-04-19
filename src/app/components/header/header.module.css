@@ -37,10 +37,6 @@
 .cargo {
   /* Styling for the job title */
   text-transform: uppercase;
-  background-color: #209449;
-  color: var(--font-white);
-  padding: 15px 24px;
-  font-weight: 700;
   opacity: 100%;
 }
 

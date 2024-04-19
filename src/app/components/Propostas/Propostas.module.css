@@ -37,14 +37,17 @@
 .gridProposta {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: var(--large-space);
-    row-gap: var(--large-space);
+    column-gap: var(--mid-space);
+    row-gap: var(--mid-space);
     margin-top: var(--mid-space);
 }
 
 /* Card */
 .card {
     display: flex;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 /* Icon */
@@ -58,8 +61,9 @@
     min-width: 80px;
     height: 80px;
     border-radius: 50%;
-    border: 1px solid #C7C6C6;
-    border: 1px solid var(--azul-claro-home);
+    border: 1px solid #e6e6e6;
+    /* border: 1px solid var(--azul-claro-home); */
+    background-color: #fff;
 }
 
 .areaIcon svg {

@@ -38,8 +38,7 @@ export function Header() {
       {/* Header section */}
       <nav className={styles.menu}>
         <div>
-          {/* Senator title */}
-          <span className={styles.cargo}>SENADOR</span>
+          <img className={styles.cargo} src="https://static.nike.com.br/v10-355-1/images/brands/logo.svg" alt="" />
         </div>
         <div onClick={openMenu} className={styles.menuIcon}>
           <svg
