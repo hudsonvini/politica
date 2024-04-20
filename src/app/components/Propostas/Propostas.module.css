@@ -105,8 +105,12 @@
 @media (max-width: 700px) {
     .container {
         padding: 0px 20px;
-        margin-top: var(--min-space);
+        margin-top: var(--large-space);
         margin-bottom: var(--min-space);
+    }
+
+    .titleBlog {
+        font-size: 28px;
     }
 }
 
