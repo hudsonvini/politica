@@ -47,7 +47,7 @@ export default function InfoCandidate(props) {
           </span>
 
           {/* Area More info */}
-          {/* <div className={styles.areaMoreInfo}>
+          <div className={styles.areaMoreInfo}>
             <h4 className={styles.birthCandidate}>
               {birthInfo.map((item, index) => (
                 <React.Fragment key={index}>
@@ -56,7 +56,7 @@ export default function InfoCandidate(props) {
                 </React.Fragment>
               ))}
             </h4>
-          </div> */}
+          </div>
 
           {/* Stats */}
           <ul className={styles.stats}>
