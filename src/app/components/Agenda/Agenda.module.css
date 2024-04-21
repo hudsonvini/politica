@@ -16,16 +16,41 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 20px;
+    column-gap: 40PX;
     margin-top: var(--mid-space);
 }
 
 /* Card */
 .card {
+    position: relative;
     display: flex;
     background-color: #f7f7f7;
-    border: 1px solid #ebebeb;
+    /* border: 1px solid #ebebeb; */
     border-radius: 20px;
 }
+
+.decorator {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #fff;
+    height: 30px;
+    width: 40px;
+    border-radius: 0px 0px 0px 10px;
+}
+
+/* .decorator::after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0px;
+    background-color: #fff;
+    height: 10px;
+    width: 10px;
+    border-radius: 0px 0px 0px 0px;
+
+} */
 
 .containerDataArea {
     display: flex;
@@ -54,17 +79,18 @@
 
 .informationArea h3 {
     font-size: 20px;
-    font-weight: 500;
-    color: #3C3C3C;
+    font-weight: 600;
+    color: #000000;
 }
 
 .inferiorInformation {
     display: flex;
-    margin-top: 24px;
+    margin-top: 10px;
 }
 
 .inferiorInformation span {
     display: flex;
+    align-items: center;
     margin-right: var(--mid-space);
     color: #767676;
     font-size: 18px;
@@ -72,7 +98,7 @@
 
 .inferiorInformation span svg {
     fill: var(--azul-claro-home);
-    height: 24px;
+    height: 20px;
     margin-right: 10px;
 }
 
@@ -148,5 +174,9 @@
         width: 60px;
         min-width: none;
         border-radius: 50%;
+    }
+
+    .informationArea {
+        padding: 28px 32px 28px 32px;
     }
 }

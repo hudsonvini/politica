@@ -47,6 +47,10 @@
 .containerSingle {
   max-width: 100%;
   margin-bottom: var(--mid-space);
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 20px;
+  /* border: 1px solid #ebebeb; */
 }
 
 .containerImgNews {
@@ -66,12 +70,12 @@
 
 .nameNews h3 {
   margin-top: var(--min-space);
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 140%;
   transition: .3s;
   cursor: pointer;
-  color: #000;
+  color: var(--azul-claro-home);
 }
 
 .nameNews:hover h3{
@@ -80,9 +84,10 @@
 
 .dateNews {
   color: #B1B1B1;
+  color: #000;
   /* color: var(--azul-claro-home); */
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 8px 0;
 }
 

@@ -87,7 +87,6 @@ export default function Home() {
 
       <NewsLetter />
 
-      <Separador />
       {/* Render the Footer component */}
       <Footer />
     </>

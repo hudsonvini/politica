@@ -11,8 +11,6 @@ export default function Historia() {
     <>
       <HistoriaCandidato />
 
-      <Separador />
-
       <NewsLetter />
 
       <Footer />

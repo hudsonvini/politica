@@ -13,6 +13,9 @@ function AgendaCard(props) {
 
       {/* Information area */}
       <div className={style.informationArea}>
+        {/* Decorator */}
+        <span className={style.decorator}></span>
+
         <h3>{title}</h3>
 
         <div className={style.inferiorInformation}>
@@ -25,9 +28,7 @@ function AgendaCard(props) {
           </span>
           {/* Spot */}
           <span className={`${style.spot} ${fontSecundaria.className}`}>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-              <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
-            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 0c17.7 0 32 14.3 32 32V66.7C368.4 80.1 431.9 143.6 445.3 224H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H445.3C431.9 368.4 368.4 431.9 288 445.3V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V445.3C143.6 431.9 80.1 368.4 66.7 288H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H66.7C80.1 143.6 143.6 80.1 224 66.7V32c0-17.7 14.3-32 32-32zM128 256a128 128 0 1 0 256 0 128 128 0 1 0 -256 0zm128-80a80 80 0 1 1 0 160 80 80 0 1 1 0-160z"/></svg>
             <p>{location}</p>
           </span>
         </div>
@@ -50,43 +51,43 @@ export default function Agenda() {
           location="Teresina, Piauí"
         />
         <AgendaCard
-          date="14"
+          date="24"
           title="Passeata pela liberade - Praça São Benedito"
           time="14:00"
           location="Parnaíba, Piauí"
         />
         <AgendaCard
-          date="14"
+          date="26"
           title="Sabatina de Pré-Candidatos - Jornal Agora"
           time="14:00"
           location="Campo Grande, São Paulo"
         />
         <AgendaCard
-          date="14"
+          date="01"
           title="Discurso de campanha e reunião com eleitorado"
           time="14:00"
           location="Campinas, São paulo"
         />
         <AgendaCard
-          date="14"
+          date="03"
           title="Marcha pela Democrácia"
           time="14:00"
           location="Teresina, Piauí"
         />
         <AgendaCard
-          date="14"
+          date="08"
           title="Campanha de apoio contra o Cancer de Mama"
           time="14:00"
           location="Uruaçu, Piauí"
         />
         <AgendaCard
-          date="14"
+          date="10"
           title="Entrevista na Radio Bandeirantes"
           time="14:00"
           location="Teresina, Piauí"
         />
         <AgendaCard
-          date="14"
+          date="11"
           title="Entrevista Jovem Pan"
           time="14:00"
           location="Lilopolís, Piauí"
