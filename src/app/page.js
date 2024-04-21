@@ -72,13 +72,11 @@ export default function Home() {
       {/* Carrosel Depoimentos */}
       <CarroselDepoimentos />
 
-      {/* Separator */}
-      {/* <Separador /> */}
-
-      {/* <Depoimentos /> */}
 
       {/* Render the NewsLetter component */}
       <Agenda />
+      
+      <Depoimentos />
 
       {/* Render the Blog component */}
       <Blog />

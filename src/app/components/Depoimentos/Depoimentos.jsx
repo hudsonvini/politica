@@ -35,30 +35,27 @@ export default function Depoimentos() {
       >
         <SwiperSlide>
           <img
+            src="https://images.unsplash.com/photo-1591451855781-9eb0f9726a33?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Image Depoimento"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
             src="/images/imagesDepoimentos/imagesDepoimentos2.jpg"
             alt="Image Depoimento"
           />
         </SwiperSlide>
-        {/* <SwiperSlide>
-          <img
-            src="https://images.unsplash.com/photo-1591451855781-9eb0f9726a33?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Image Depoimento"
-          />
-        </SwiperSlide> */}
       </Swiper>
 
       {/* Area Text */}
       <div className={style.areaText}>
-        <h2 className={style.title}>Ele tem o apoio da população</h2>
+        <h2 className={style.title}>Queremos continuar o trabalho!</h2>
         <p className={`${style.description} ${fontSecundaria.className}`}>
           Ciro Nogueira é Senador pelo estado do Piauí. Nascido em 21 de
           novembro de 1968 em Teresina, Piauí, Ciro Nogueira é formado em
           Direito na PUC do Rio de Janeiro. Foi Ministro de Estado Chefe da Casa
           Civil da Presidência da República durante o governo do presidente
-          Bolsonaro (2021-2022). Foi deputado federal por quatro mandatos e
-          chegou ao Senado em 2011, sendo eleito novamente em 2018. Desde 2013,
-          Ciro Nogueira preside o Progressistas, um dos maiores partidos
-          políticos do Brasil
+          Bolsonaro (2021-2022).
         </p>
 
         <span className={style.dateBorn}>nascido em 1997</span>

@@ -1,8 +1,11 @@
 .container {
     display: flex;
-    max-width: 100vw;
+    max-width: 1500px;
+    margin: 0 auto;
     margin-top: var(--large-space);
     margin-bottom: var(--large-space);
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 /* area Image */
