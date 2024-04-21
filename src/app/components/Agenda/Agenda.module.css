@@ -40,18 +40,6 @@
     border-radius: 0px 0px 0px 10px;
 }
 
-/* .decorator::after {
-    content: '';
-    position: absolute;
-    left: -10px;
-    top: 0px;
-    background-color: #fff;
-    height: 10px;
-    width: 10px;
-    border-radius: 0px 0px 0px 0px;
-
-} */
-
 .containerDataArea {
     display: flex;
     justify-content: center;

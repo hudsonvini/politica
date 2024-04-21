@@ -90,6 +90,13 @@
     margin-top: var(--mid-space);
 }
 
+@media (max-width: 1550px) { 
+    .container {
+      margin-right: 20px ;
+      margin-left: 20px ;
+    }
+}
+
 @media (max-width: 1000px) {
     .container {
         flex-direction: column;

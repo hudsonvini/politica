@@ -6,6 +6,7 @@ export default function NewsLetter() {
     <section className={style.container}>
       {/* NewsLetter */}
       <div className={style.newsletter}>
+
         {/* Lead Capture area */}
         <div className={style.leadCaptureArea}>
           <h2>
@@ -32,13 +33,6 @@ export default function NewsLetter() {
               className={style.imageCandidate}
               src="./images/imagesNewsletter/cironogueira.png"
               alt="Imagem Candidato"
-            />
-          </div>
-          {/* Image Bandeira */}
-          <div className={style.areaIamgebandeira}>
-            <img
-              src="./images/imagesNewsletter/bandeiraPiaui.jpg"
-              alt="Estado do candidato"
             />
           </div>
         </div>
