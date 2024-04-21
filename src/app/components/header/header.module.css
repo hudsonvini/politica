@@ -38,6 +38,7 @@
   /* Styling for the job title */
   text-transform: uppercase;
   opacity: 100%;
+  height: 80px;
 }
 
 /* Social Medias List */
@@ -79,17 +80,18 @@
 }
 
 .menuIcon {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--azul-claro-home);
   display: none;
+  background-color: var(--azul-claro-home);
 }
 
 .menuIcon svg {
   height: 24px;
+  stroke: #fff;
 }
 
 .closeMenu {
@@ -147,6 +149,8 @@
   }
 }
 
-@media (max-width: 700px) {
-
+@media (max-width: 500px) {
+  .cargo {
+    height: 60px;
+  }
 }

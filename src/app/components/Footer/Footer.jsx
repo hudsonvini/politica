@@ -14,10 +14,7 @@ export default function Footer() {
                 <div className={style.middleFooter}>
                     {/* Left Content */}
                     <div className={style.leftContent}>
-                        <h1>Por um pais melhor
-                            <br />
-                            <b>vote 2222</b>
-                        </h1>
+                        <img src="/icons/LOGOFOOTER.svg" alt="Logo Footer" />
                         <p>Endereço: Senado Federal / Anexo 1 - 3º Pavimento / Brasília - DF</p>
                         <p>Telefones: 61.3303-6187 / 6185</p>
                     </div>

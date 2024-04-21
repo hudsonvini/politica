@@ -25,16 +25,10 @@
 }
 
 /* Left Content */
-.leftContent h1 {
-    font-size: 24px;
-    font-weight: 400;
-    text-transform: uppercase;
+.leftContent img {
+    height: 140px;
 }
 
-.leftContent h1 b {
-    font-size: 48px;
-    font-weight: 800;
-}
 
 .leftContent p {
     font-weight: 500;
@@ -131,5 +125,14 @@
 @media (max-width: 700px) {
     .bodyFooter {
         padding: 40px 40px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .leftContent img {
+        height: auto;
+        width: 90%;
     }
 }

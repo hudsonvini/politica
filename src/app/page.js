@@ -19,7 +19,7 @@ import HeroSectionBanner from "./components/HeroSectionBanner/HeroSectionBanner"
 export default function Home() {
   return (
     <>
-      <HeroSectionBanner image={'./images/HeroSectionBanner/image.jpg'}/>
+      <HeroSectionBanner image={'./images/HeroSectionBanner/image2.jpg'}/>
 
       {/* Render the ScreenCandidate component */}
       {/* <ScreenCandidate
@@ -75,7 +75,7 @@ export default function Home() {
 
       {/* Render the NewsLetter component */}
       <Agenda />
-      
+
       <Depoimentos />
 
       {/* Render the Blog component */}
